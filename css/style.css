@@ -1,8 +1,13 @@
 :root {
-  --primary-pink: #e78cb3;
-  --secondary-pink: #f6c5d8;
-  --light-pink: #fff0f6;
-  --rose: #d66a92;
+  --primary-pink: #e88ab0;
+  --secondary-pink: #db729f;
+  --rose: #d76d9b;
+  --accent-pink: #ff73ad;
+  --dark-rose: #c45a8a;
+  --light-pink: #fff4f8;
+  --footer-light: #ffeef5;
+  --footer-dark: #fbdce9;
+  --text-color: #5a4a52;
   --white: #ffffff;
 }
 
@@ -14,8 +19,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #fff4f8;
-  color: #5a4a52;
+  background: var(--light-pink);
+  color: var(--text-color);
   overflow-x: hidden;
   line-height: 1.6;
 }
@@ -78,7 +83,7 @@ body::after {
 .logo {
   font-family: "Pacifico", cursive;
   font-size: 2rem;
-  color: #e88ab0;
+  color: var(--primary-pink);
 }
 
 .nav-links {
@@ -89,14 +94,14 @@ body::after {
 
 .nav-links a {
   text-decoration: none;
-  color: #c45a8a;
+  color: var(--dark-rose);
   font-weight: 600;
   transition: 0.3s;
   position: relative;
 }
 
 .nav-links a:hover {
-  color: #ff73ad;
+  color: var(--accent-pink);
 }
 
 .nav-links a::after {
@@ -129,22 +134,21 @@ body::after {
 
 
   background:
-    radial-gradient(
-      circle at top left,
+    radial-gradient(circle at top left,
       rgba(255, 192, 203, 0.45),
-      transparent 30%
-    ),
-    radial-gradient(
-      circle at bottom right,
+      transparent 30%),
+    radial-gradient(circle at bottom right,
       rgba(255, 182, 193, 0.45),
-      transparent 30%
-    );
+      transparent 30%);
 
   padding: 3rem 10%;
 }
 
 .hero-content {
   max-width: 800px;
+}
+
+#index--hero {
   animation: float 5s ease-in-out infinite;
 }
 
@@ -177,24 +181,15 @@ body::after {
 }
 
 .primary-btn {
-  background: #e88ab0;
-  color: white;
+  background: var(--primary-pink);
+  color: var(--white);
 }
 
 .primary-btn:hover {
   transform: translateY(-3px);
-  background: #db729f;
+  background: var(--secondary-pink);
 }
 
-.secondary-btn {
-  border: 2px solid #e88ab0;
-  color: #e88ab0;
-}
-
-.secondary-btn:hover {
-  background: #e88ab0;
-  color: white;
-}
 
 
 section {
@@ -203,7 +198,7 @@ section {
 
 section h2 {
   text-align: center;
-  color: #d76d9b;
+  color: var(--rose);
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
@@ -212,10 +207,11 @@ footer {
   text-align: center;
   padding: 4rem 2rem;
 
-  background: linear-gradient(to bottom, #ffeef5, #fbdce9);
+  background: linear-gradient(to bottom, var(--footer-light), var(--footer-dark));
 }
+
 footer h3 {
-  color: #d76d9b;
+  color: var(--rose);
   margin-bottom: 1rem;
 }
 
@@ -253,8 +249,8 @@ footer h3 {
   margin-top: 1rem;
 
   border: none;
-  background: #e88ab0;
-  color: white;
+  background: var(--primary-pink);
+  color: var(--white);
 
   padding: 10px 25px;
   border-radius: 50px;

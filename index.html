@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,11 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <h2>Announcements</h2>
-            <p>Applications for our Summer Program are now open!</p>
-            <button onclick="closePopup()">Close</button>
-        </div>
-    </div>
-
     <header>
         <nav class="navbar">
             <h2 class="logo">Sophia Girls' Academy</h2>
@@ -33,27 +27,21 @@
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h1>Empowering Girls Through Education</h1>
+        <div class="hero-content" id="index-hero">
+            <h1>Catchphrase</h1>
 
             <p>
-                Sophia Girls' Academy is an international online program
-                helping girls ages 10–16 from underrepresented communities
-                prepare for academic and professional success.
+                Sophia Girls' Academy is...
             </p>
 
             <div class="hero-buttons">
                 <a href="apply.html" class="btn primary-btn">
-                    Apply as a Student
-                </a>
-
-                <a href="internships.html" class="btn secondary-btn">
-                    Join Our Team
+                    Apply
                 </a>
             </div>
         </div>
     </section>
-   
+
 
     <footer>
         <h3>Sophia Girls' Academy</h3>
@@ -62,11 +50,8 @@
         </p>
     </footer>
 
-    <script>
-        function closePopup() {
-            document.getElementById("popup").style.display = "none";
-        }
-    </script>
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
