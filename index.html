@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia Girls' Academy</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Announcements</h2>
+            <p>Applications for our Summer Program are now open!</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Sophia Girls' Academy</h2>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/about.html">About Us</a></li>
+                <li><a href="pages/programs.html">Our Programs</a></li>
+                <li><a href="pages/articles.html">Articles</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Empowering Girls Through Education</h1>
+
+            <p>
+                Sophia Girls' Academy is an international online program
+                helping girls ages 10–16 from underrepresented communities
+                prepare for academic and professional success.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="apply.html" class="btn primary-btn">
+                    Apply as a Student
+                </a>
+
+                <a href="internships.html" class="btn secondary-btn">
+                    Join Our Team
+                </a>
+            </div>
+        </div>
+    </section>
+   
+
+    <footer>
+        <h3>Sophia Girls' Academy</h3>
+        <p>
+            © 2026 Sophia Girls' Academy. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script>
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
