@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us - Sophia Girls' Academy</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
 </head>
 
 <body>
@@ -21,62 +21,132 @@
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="programs.html">Summer Program</a></li>
                 <li><a href="articles.html">Articles</a></li>
+                <li><a href="register.html">Apply</a></li>
             </ul>
-
-            <div class="nav-buttons">
-                <a href="#" class="btn primary-btn">
-                    Log in
-                </a>
-            </div>
         </nav>
-    </header>'
+    </header>
 
     <section class="hero">
         <div class="hero-content">
             <h2>About Us</h2>
             <h4>Who We Are</h4>
 
-            <p>
-                Sophia Girls' Academy is...
-            </p>
+            <p>Sophia Girls' Academy is...</p>
 
             <div class="hero-buttons">
-                <a href="#" class="btn primary-btn">
-                    Meet Our Team
-                </a>
+                <a href="#team" class="btn primary-btn"> Meet Our Team </a>
             </div>
         </div>
     </section>
 
     <section class="overview">
         <h2>Our Mission</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nunc nisl aliquam nisl, eget ultricies nunc nisl eget nunc.</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor,
+            nisl eget ultricies tincidunt, nunc nisl aliquam nisl, eget ultricies
+            nunc nisl eget nunc.
+        </p>
     </section>
 
-    <section class="team">
-        <h2>Our Team</h2>
-        <div class="person-card">
-            <img src="images/team-member1.jpg" alt="Team Member 1">
-            <div class="person-info">
-                <h3>Jane Doe</h3>
-                <p>Principal</p>
+    <section class="team" id="team">
+    <h2>Our Team</h2>
+
+    <div class="department">
+        <h3>Leadership</h3>
+
+        <div class="team-grid">
+            <div class="person-card">
+                <img src="#" alt="Team Member" />
+                <div class="person-info">
+                    <h3>Jane Doe</h3>
+                    <p>Principal</p>
+                </div>
+            </div>
+
+            <div class="person-card">
+                <img src="#" alt="Team Member" />
+                <div class="person-info">
+                    <h3>Jane Doe</h3>
+                    <p>Principal</p>
+                </div>
             </div>
         </div>
-        <div class="person-card">
-            <img src="images/team-member1.jpg" alt="Team Member 1">
-            <div class="person-info">
-                <h3>Jane Doe</h3>
-                <p>Principal</p>
+    </div>
+
+    <div class="department">
+        <h3>Education Department</h3>
+
+        <div class="team-grid">
+            <div class="person-card">
+                <img src="#" alt="Team Member" />
+                <div class="person-info">
+                    <h3>Jane Doe</h3>
+                    <p>Principal</p>
+                </div>
             </div>
         </div>
-        <div class="person-card">
-            <img src="images/team-member1.jpg" alt="Team Member 1">
-            <div class="person-info">
-                <h3>Jane Doe</h3>
-                <p>Principal</p>
+    </div>
+
+    <div class="department">
+        <h3>Journalism Department</h3>
+
+        <div class="team-grid">
+            <div class="person-card">
+                <img src="#" alt="Team Member" />
+                <div class="person-info">
+                    <h3>Jane Doe</h3>
+                    <p>Principal</p>
+                </div>
             </div>
+            <!-- cards -->
         </div>
-    </section>
+    </div>
+
+    <div class="department">
+        <h3>Social Media Management Department</h3>
+
+        <div class="team-grid">
+            <div class="person-card">
+                <img src="#" alt="Team Member" />
+                <div class="person-info">
+                    <h3>Jane Doe</h3>
+                    <p>Principal</p>
+                </div>
+            </div>
+            <!-- cards -->
+        </div>
+    </div>
+
+    <div class="department">
+        <h3>HR Department</h3>
+
+        <div class="team-grid">
+            <div class="person-card">
+                <img src="#" alt="Team Member" />
+                <div class="person-info">
+                    <h3>Jane Doe</h3>
+                    <p>Principal</p>
+                </div>
+            </div>
+            <!-- cards -->
+        </div>
+    </div>
+
+    <div class="department">
+        <h3>Software Engineering Department</h3>
+
+        <div class="team-grid">
+            <div class="person-card">
+                <img src="#" alt="Team Member" />
+                <div class="person-info">
+                    <h3>Jane Doe</h3>
+                    <p>Principal</p>
+                </div>
+            </div>
+            <!-- cards -->
+        </div>
+    </div>
+</section>
 
     <section id="contact" class="contact">
         <div class="info-card">
@@ -101,8 +171,8 @@
         <div class="contact-form">
             <h3>Send Us a Message</h3>
             <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="_replyto" placeholder="Your Email" required />
                 <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn primary-btn">Send</button>
             </form>
@@ -111,12 +181,10 @@
 
     <footer>
         <h3>Sophia Girls' Academy</h3>
-        <p>
-            © 2026 Sophia Girls' Academy. All Rights Reserved.
-        </p>
+        <p>© 2026 Sophia Girls' Academy. All Rights Reserved.</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
