@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Articles - Sophia Girls' Academy</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
+    <link rel="icon" href="../images/logo.png" />
 </head>
 
 <body>
@@ -23,9 +24,43 @@
                 <li><a href="articles.html">Articles</a></li>
                 <li><a href="register.html">Apply</a></li>
             </ul>
-
         </nav>
     </header>
+
+    <section class="articles-page">
+        <h1>Articles</h1>
+
+        <p>
+            Discover educational resources, student stories, and university
+            preparation tips written by our Journalism Department.
+        </p>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="All">All</button>
+
+            <button class="filter-btn" data-category="Essay Writing">
+                Essay Writing
+            </button>
+
+            <button class="filter-btn" data-category="Summer Programs">
+                Summer Programs
+            </button>
+
+            <button class="filter-btn" data-category="College Prep">
+                College Prep
+            </button>
+
+            <button class="filter-btn" data-category="Leadership">
+                Leadership
+            </button>
+
+            <button class="filter-btn" data-category="Student Spotlight">
+                Student Spotlight
+            </button>
+        </div>
+
+        <div id="articles-grid" class="articles-grid"></div>
+    </section>
 
     <section id="contact" class="contact">
         <div class="info-card">
@@ -50,8 +85,8 @@
         <div class="contact-form">
             <h3>Send Us a Message</h3>
             <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="_replyto" placeholder="Your Email" required>
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="_replyto" placeholder="Your Email" required />
                 <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn primary-btn">Send</button>
             </form>
@@ -60,12 +95,11 @@
 
     <footer>
         <h3>Sophia Girls' Academy</h3>
-        <p>
-            © 2026 Sophia Girls' Academy. All Rights Reserved.
-        </p>
+        <p>© 2026 Sophia Girls' Academy. All Rights Reserved.</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/article.js"></script>
 </body>
 
 </html>

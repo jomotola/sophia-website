@@ -1,0 +1,22 @@
+[
+    {
+    "id": 1,
+    "title": "Writing Better Essays",
+    "author": "Sophia Journalism Team",
+    "date": "March 9, 2026",
+    "category": "Essay Writing",
+    "description": "Learn how to improve your college essays.",
+    "image": "../images/articles/essay.jpg",
+    "content": "<p>This is the full article...</p>"
+},
+    {
+        "id":2,
+        "title":"Preparing for Summer Programs",
+        "author":"Sophia Journalism Team",
+        "category":"Summer Programs",
+        "date":"2026-03-05",
+        "description":"Everything you should know before applying.",
+        "image":"../images/articles/summer.jpg",
+        "content":"<p>...</p>"
+    }
+]

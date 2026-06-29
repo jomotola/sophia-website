@@ -128,15 +128,17 @@ body::after {
 }
 
 .hero {
-  min-height: 90vh;
+  min-height:90vh;
+
+    padding:
+    120px
+    10%
+    3rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-
-  padding: 120px 10% 3rem;
-
   background:
     radial-gradient(circle at top left,
       rgba(255, 192, 203, 0.45),
@@ -203,10 +205,6 @@ section h2 {
   margin-bottom: 2rem;
 }
 
-/* =========================
-   Overview Section
-========================= */
-
 .overview {
   padding: 6rem 10%;
 }
@@ -260,6 +258,139 @@ section h2 {
   transform: translateY(-8px);
 }
 
+/* ===========================
+   Latest Articles
+=========================== */
+
+.new-articles {
+    padding: 6rem 10%;
+    text-align: center;
+}
+
+.section-subtitle{
+    max-width:650px;
+    margin:0 auto 3rem;
+    color:var(--text-color);
+    opacity:.8;
+}
+
+.preview-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:2rem;
+
+}
+
+.preview-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(231,140,179,.12);
+
+    transition:.3s;
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+.preview-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(231,140,179,.18);
+
+}
+
+.preview-card img{
+
+    width:100%;
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.preview-content{
+
+    padding:1.5rem;
+
+    display:flex;
+    flex-direction:column;
+
+    flex:1;
+
+}
+
+.preview-category{
+
+    display:inline-block;
+
+    background:#ffe7f1;
+
+    color:var(--rose);
+
+    padding:5px 12px;
+
+    border-radius:999px;
+
+    font-size:.8rem;
+
+    font-weight:600;
+
+    margin-bottom:1rem;
+
+    align-self:flex-start;
+
+}
+
+.preview-content h3{
+
+    color:var(--rose);
+
+    margin-bottom:.75rem;
+
+}
+
+.preview-content p{
+
+    color:var(--text-color);
+
+    margin-bottom:1.5rem;
+
+    flex:1;
+
+}
+
+.preview-content a{
+
+    color:var(--primary-pink);
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.preview-content a:hover{
+
+    color:var(--secondary-pink);
+
+}
+
+.articles-buttons{
+
+    margin-top:3rem;
+
+}
+
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -277,6 +408,7 @@ section h2 {
 
   box-shadow: 0 10px 25px rgba(232, 138, 176, .15);
 }
+
 
 .contact-form form {
   display: flex;
