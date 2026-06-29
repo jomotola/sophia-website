@@ -9,6 +9,7 @@
   --footer-dark: #fbdce9;
   --text-color: #5a4a52;
   --white: #ffffff;
+  --shadow: 0 10px 30px rgba(231, 140, 179, 0.12);
 }
 
 * {
@@ -258,9 +259,7 @@ section h2 {
   transform: translateY(-8px);
 }
 
-/* ===========================
-   Latest Articles
-=========================== */
+/*Latest Articles*/
 
 .new-articles {
     padding: 6rem 10%;
