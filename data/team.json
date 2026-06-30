@@ -1,0 +1,103 @@
+[
+    {
+        "department": "Leadership",
+        "members": [
+            {
+                "name": "Bakdana Zhengisbek",
+                "role": "Founder",
+                "image": "../images/team/bakdana.png",
+                "quote": "Ready to help open more doors for girls through education!"
+            },
+            {
+                "name": "Azhar Kusmanova",
+                "role": "Founder",
+                "image": "../images/team/azhar.png",
+                "quote": "Let’s empower each other together!"
+            }
+        ]
+    },
+
+    {
+        "department": "Education Department",
+        "members": [
+            {
+                "name": "Aizah Tauseef",
+                "role": "Education Intern",
+                "image": "../images/team/aizah.png",
+                "quote": "Everything is relative!"
+            },
+            {
+                "name": "Anjali Thakkar",
+                "role": "Education Intern",
+                "image": "../images/team/anjali.png",
+                "quote": "Don’t wish it, work for it!"
+            }
+        ]
+    },
+
+    {
+        "department": "HR Department",
+        "members": [
+            {
+                "name": "Shantiana Nicholas",
+                "role": "Human Resources Intern",
+                "image": "../images/team/shantiana.png",
+                "quote": "Dream big, work quietly, shine loudly"
+            }
+        ]
+    },
+
+    {
+        "department": "Journalism Department",
+        "members": [
+            {
+                "name": "Zhanel Bakhmanova",
+                "role": "Journalist",
+                "image": "../images/team/zhanel.png",
+                "quote": "One step closer to something bigger"
+            }
+        ]
+    }, 
+
+    {
+        "department": "Social Media Management Department",
+        "members": [
+            {
+                "name": "Salem Rios",
+                "role": "Social Media Management Intern",
+                "image": "../images/team/salem.png",
+                "quote": "It always seems impossible until it's done."
+            },
+            {
+                "name": "Ella Truong",
+                "role": "Social Media Management Intern",
+                "image": "../images/team/ella.png",
+                "quote": "You miss 100% of the shots you don’t take."
+            }, 
+            {
+                "name": "Aruzhan Kuanysh",
+                "role": "Social Media Management Intern",
+                "image": "../images/team/aruzhan.png",
+                "quote": "Don’t wait for an opportunity. Create it."
+            }
+        ]
+    },
+    
+    {
+        "department": "Software Engineering Department",
+        "members": [
+            {
+                "name": "Rishita Agarwal",
+                "role": "Software Engineer",
+                "image": "../images/team/rishita.png",
+                "quote": "Shoot for the moon, even if you miss you'll land amongst the stars"
+            },
+            {
+                "name": "Omotola Joseph",
+                "role": "Software Engineer",
+                "image": "../images/team/omotola.png",
+                "quote": "It always seems impossible until it's done."
+            }
+        ]
+    }
+]

@@ -98,3 +98,15 @@ if (previewGrid) {
       });
     });
 }
+
+//search bar
+const search = document.querySelector("#search");
+const clearBtn = document.querySelector("#clear-search");
+
+if (search && clearBtn) {
+    clearBtn.addEventListener("click", () => {
+        search.value = "";
+        search.dispatchEvent(new Event("input"));
+        search.focus();
+    });
+}

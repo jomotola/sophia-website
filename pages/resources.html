@@ -1,20 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Articles - Sophia Girls' Academy</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/pages.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Sophia Girls' Academy</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages.css">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="icon" href="../images/sophia-logo.png" />
+        rel="stylesheet">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+    <link rel="icon" href="../images/sophia-logo.png">
 </head>
 
 <body>
+
+
     <header>
         <nav class="navbar">
             <a href="../index.html" class="logo">
@@ -33,19 +41,32 @@
         </nav>
     </header>
 
-    <section class="articles-page">
-        <h1>Articles</h1>
+    <!-- Hero -->
 
-        <p>
-            Discover educational resources, student stories, and university
-            preparation tips written by our Journalism Department.
-        </p>
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Student Resources</h1>
+
+            <p>
+                Here you can find essential materials for self-studying during your free time, homework, and other
+                additional educational activities.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="resources">
+
+        <h2>Browse by Category</h2>
 
         <div class="search-container">
 
             <i class="fas fa-search"></i>
 
-            <input type="text" id="search" placeholder="Search articles...">
+            <input type="text" id="search" placeholder="Search resources...">
 
             <button id="clear-search">
                 <i class="fas fa-times"></i>
@@ -54,27 +75,61 @@
         </div>
 
         <div class="filter-buttons">
-            <button class="filter-btn active" data-category="All">All</button>
 
-            <button class="filter-btn" data-category="Essay Writing">
-                Essay Writing
-            </button>
-
-            <button class="filter-btn" data-category="Summer Programs">
-                Summer Programs
+            <button class="filter-btn active" data-category="All">
+                All
             </button>
 
             <button class="filter-btn" data-category="College Prep">
                 College Prep
             </button>
 
-            <button class="filter-btn" data-category="Stories about legendary figures">
-                Stories about Legendary Figures
+            <button class="filter-btn" data-category="Essay Writing">
+                Essay Writing
             </button>
+
+            <button class="filter-btn" data-category="SAT / ACT">
+                SAT / ACT
+            </button>
+
+            <button class="filter-btn" data-category="Scholarships">
+                Scholarships
+            </button>
+
+            <button class="filter-btn" data-category="Leadership">
+                Leadership
+            </button>
+
+            <button class="filter-btn" data-category="Career Exploration">
+                Career Exploration
+            </button>
+
+            <button class="filter-btn" data-category="Summer Programs">
+                Summer Programs
+            </button>
+
         </div>
 
-        <div id="articles-grid" class="articles-grid"></div>
+
+        <div class="resources-grid"></div>
+
     </section>
+
+    <section class="resource-cta">
+
+        <h2>Know a Great Resource?</h2>
+
+        <p>
+            Our resource library is always growing. If you have a free resource
+            that could help students, we'd love to hear about it.
+        </p>
+
+        <a href="mailto:sophiagirlsacademy@gmail.com" class="btn primary-btn">
+            Suggest a Resource
+        </a>
+
+    </section>
+
 
     <section id="contact" class="contact">
         <div class="info-card">
@@ -96,20 +151,20 @@
                     <a href="http://www.youtube.com/@SophiaGirlsAcademy" target="_blank">
                         <p><i class="fab fa-youtube"></i></p>
                     </a>
-
                 </div>
             </div>
         </div>
         <div class="contact-form">
             <h3>Send Us a Message</h3>
             <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required />
-                <input type="email" name="_replyto" placeholder="Your Email" required />
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email" required>
                 <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn primary-btn">Send</button>
             </form>
         </div>
     </section>
+
 
     <footer>
         <h3>Sophia Girls' Academy</h3>
@@ -117,7 +172,6 @@
     </footer>
 
     <script src="../js/script.js"></script>
-    <script src="../js/article.js"></script>
 </body>
 
 </html>

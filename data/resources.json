@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Common App Guide",
+    "category": "College Prep",
+    "description": "Everything you need to know before applying to college.",
+    "image": "../images/resources/commonapp.jpg",
+    "link": "https://www.commonapp.org"
+  },
+  {
+    "id": 2,
+    "title": "Khan Academy SAT",
+    "category": "SAT / ACT",
+    "description": "Official SAT practice with Khan Academy.",
+    "image": "../images/resources/khan.jpg",
+    "link": "https://www.khanacademy.org/test-prep/sat"
+  }
+]

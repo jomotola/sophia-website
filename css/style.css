@@ -115,10 +115,32 @@ body::after {
 }
 
 .logo {
-  font-family: "Pacifico", cursive;
-  color: var(--primary-pink);
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
   text-decoration: none;
+
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  color: var(--primary-pink);
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+
+  object-fit: contain;
+
+  transition: .3s ease;
+}
+
+.logo:hover img {
+  transform: rotate(-5deg) scale(1.08);
+}
+
+.logo:hover {
+  color: var(--secondary-pink);
 }
 
 .logo:hover {
@@ -249,7 +271,7 @@ section h2 {
   align-items: center;
 }
 
-.list {
+.desc, .list {
   background: rgba(255, 255, 255, .7);
   backdrop-filter: blur(10px);
 
@@ -262,15 +284,15 @@ section h2 {
   transition: .3s;
 }
 
-.list:hover {
+.desc:hover, .list:hover {
   transform: translateY(-8px);
 }
 
-.list li {
+.desc li, .list li {
   margin-bottom: 1.2rem;
 }
 
-.list li:last-child {
+.desc li:last-child {
   margin-bottom: 0;
 }
 
@@ -516,9 +538,7 @@ footer h3 {
 
 }
 
-/* ==========================================
-   MOBILE
-========================================== */
+/*MOBILE*/
 
 @media (max-width:768px) {
 
@@ -540,6 +560,11 @@ footer h3 {
 
   .logo {
     font-size: 1.5rem;
+  }
+
+  .logo img {
+    width: 45px;
+    height: 45px;
   }
 
 }
