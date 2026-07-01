@@ -41,8 +41,6 @@
         </nav>
     </header>
 
-    <!-- Hero -->
-
     <section class="hero">
 
         <div class="hero-content">
@@ -58,78 +56,72 @@
 
     </section>
 
-    <section class="resources">
+    <section class="resources-page">
 
-        <h2>Browse by Category</h2>
+        <h2>Resource Library</h2>
 
-        <div class="search-container">
-
-            <i class="fas fa-search"></i>
-
-            <input type="text" id="search" placeholder="Search resources...">
-
-            <button id="clear-search">
-                <i class="fas fa-times"></i>
-            </button>
-
-        </div>
-
-        <div class="filter-buttons">
-
-            <button class="filter-btn active" data-category="All">
-                All
-            </button>
-
-            <button class="filter-btn" data-category="College Prep">
-                College Prep
-            </button>
-
-            <button class="filter-btn" data-category="Essay Writing">
-                Essay Writing
-            </button>
-
-            <button class="filter-btn" data-category="SAT / ACT">
-                SAT / ACT
-            </button>
-
-            <button class="filter-btn" data-category="Scholarships">
-                Scholarships
-            </button>
-
-            <button class="filter-btn" data-category="Leadership">
-                Leadership
-            </button>
-
-            <button class="filter-btn" data-category="Career Exploration">
-                Career Exploration
-            </button>
-
-            <button class="filter-btn" data-category="Summer Programs">
-                Summer Programs
-            </button>
-
-        </div>
-
-
-        <div class="resources-grid"></div>
-
-    </section>
-
-    <section class="resource-cta">
-
-        <h2>Know a Great Resource?</h2>
-
-        <p>
-            Our resource library is always growing. If you have a free resource
-            that could help students, we'd love to hear about it.
+        <p class="section-description">
+            Browse educational resources organized by academic track.
         </p>
 
-        <a href="mailto:sophiagirlsacademy@gmail.com" class="btn primary-btn">
-            Suggest a Resource
-        </a>
+        <div class="search-container">
+            <i class="fas fa-search"></i>
+            <input type="text" id="search" placeholder="Search resources...">
+        </div>
+
+        <div class="track-filters">
+
+            <button class="track-btn active" data-track="All">All</button>
+
+            <button class="track-btn" data-track="STEM">
+                STEM
+            </button>
+
+            <button class="track-btn" data-track="English">
+                English
+            </button>
+
+            <button class="track-btn" data-track="Communication">
+                Communication
+            </button>
+
+            <button class="track-btn" data-track="Financial Literacy & Marketing Basics">
+                Financial Literacy & Marketing Basics
+            </button>
+
+            <button class="track-btn" data-track="Basic Technical Skills">
+                Basic Technical Skills (Excel, Word, PowerPoint)
+            </button>
+
+            <button class="track-btn" data-track="UK College Preparation & Guidance">
+                UK College Preparation & Guidance
+            </button>
+        </div>
+
+        <div class="stem-subfilters" id="stem-subfilters">
+
+            <button class="stem-btn active" data-subcategory="All">
+                All STEM
+            </button>
+
+            <button class="stem-btn" data-subcategory="Mathematics">
+                Mathematics
+            </button>
+
+            <button class="stem-btn" data-subcategory="Physics">
+                Physics
+            </button>
+
+            <button class="stem-btn" data-subcategory="Chemistry">
+                Chemistry
+            </button>
+
+        </div>
+
+        <div id="resource-container" class="resource-grid">
+        </div>
 
     </section>
-
 
     <section id="contact" class="contact">
         <div class="info-card">
@@ -154,11 +146,11 @@
                 </div>
             </div>
         </div>
-        <div class="contact-form">
+         <div class="contact-form">
             <h3>Send Us a Message</h3>
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="_replyto" placeholder="Your Email" required>
+            <form action="https://formspree.io/f/mnjkgqbo" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="_replyto" placeholder="Your Email" required />
                 <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn primary-btn">Send</button>
             </form>
@@ -172,6 +164,7 @@
     </footer>
 
     <script src="../js/script.js"></script>
+    <script src="../js/resources.js"></script>
 </body>
 
 </html>

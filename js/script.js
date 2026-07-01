@@ -104,9 +104,45 @@ const search = document.querySelector("#search");
 const clearBtn = document.querySelector("#clear-search");
 
 if (search && clearBtn) {
-    clearBtn.addEventListener("click", () => {
-        search.value = "";
-        search.dispatchEvent(new Event("input"));
-        search.focus();
-    });
+  clearBtn.addEventListener("click", () => {
+    search.value = "";
+    search.dispatchEvent(new Event("input"));
+    search.focus();
+  });
 }
+
+document
+  .querySelector(".contact-form form")
+  .addEventListener("submit", function (e) {
+    e.preventDefault(); 
+
+    const form = e.target;
+    const button = form.querySelector('button[type="submit"]');
+    const originalButtonText = button.textContent;
+
+    button.textContent = "Sending...";
+    button.disabled = true;
+
+    fetch("https://formspree.io/f/mnjkgqbo", {
+      method: "POST",
+      body: new FormData(form),
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        if (response.ok) {
+          alert("Message sent successfully!");
+          form.reset();
+        } else {
+          alert("Oops! There was a problem submitting your form.");
+        }
+      })
+      .catch((error) => {
+        alert("Error: Could not connect to the server.");
+      })
+      .finally(() => {
+        button.textContent = originalButtonText;
+        button.disabled = false;
+      });
+  });

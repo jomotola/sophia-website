@@ -1,18 +1,164 @@
 [
   {
-    "id": 1,
-    "title": "Common App Guide",
-    "category": "College Prep",
-    "description": "Everything you need to know before applying to college.",
-    "image": "../images/resources/commonapp.jpg",
-    "link": "https://www.commonapp.org"
+    "title": "Geometry (7th Grade)",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "7th Grade Geometry lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/7_GEOMETRY.pdf"
+  },
+
+
+  {
+    "title": "Geometry (8th Grade)",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "8th Grade Geometry lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/8_GEOMETRY.pdf"
   },
   {
-    "id": 2,
-    "title": "Khan Academy SAT",
-    "category": "SAT / ACT",
-    "description": "Official SAT practice with Khan Academy.",
-    "image": "../images/resources/khan.jpg",
-    "link": "https://www.khanacademy.org/test-prep/sat"
+    "title": "Geometry (9th Grade)",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "9th Grade Geometry lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/9_GEOMETRY.pdf"
+  },
+  {
+    "title": "Geometry (10th Grade)",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "10th Grade Geometry lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/10_GEOMETRY.pdf"
+  },
+  {
+    "title": "Algebra (8th Grade)",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "8th Grade Algebra lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/8_ALGEBRA.pdf"
+  }, 
+  {
+    "title": "Algebra (9th Grade)",
+    "track":"STEM",
+    "subcategory": "Mathematics",
+    "description": "9th Grade Algebra lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/9_ALGEBRA.pdf"
+  },
+  {
+    "title": "Algebra (10th Grade)",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "10th Grade Algebra lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/10_ALGEBRA.pdf"
+  }, 
+  {
+    "title": "Applied Maths (10th Grade)",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "10th Grade Applied Maths lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/10_APPLIED_MATHS.pdf"
+  },
+  {
+    "title": "Applied Maths (11th Grade)",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "11th Grade Applied Maths lessons and exercises.",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/11_APPLIED_MATHS.pdf"
+  }, 
+  {
+    "title": "Analytic Analysis of Lines and Cirlces",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/Analytic_Analysis_of_LINES_and_CIRCLES.pdf"
+  },
+  {
+    "title": "Angles and Triangles",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/ANGLES_and_TRIANGLES.pdf"
+  },
+  {
+    "title": "Areas of Polygonal Regions",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description":"...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/Areas_of_Polygonal_Regions.pdf"
+  }, 
+  {
+    "title": "Derivatives",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/Derivatives (Zambak) ( PDFDrive ) (3).pdf"
+  },
+  {
+    "title": "Functions",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/FUNCTIONS.pdf"
+  },
+  {
+    "title": "Intro To Trigonometry",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/INTRO_TO_TRIGONOMETRY.pdf"
+  },
+  {
+    "title": "Polygons",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/POLYGONS.pdf"
+  },
+  {
+    "title": "Polynomials",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/POLYNOMIALS.pdf"
+  },
+  {
+    "title": "Quadratics",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/QUADRATICS.pdf"
+  },
+  {
+    "title": "Sequence",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/SEQUENCE.pdf"
+  },
+  {
+    "title": "Vectors in the Plane",
+    "track": "STEM",
+    "subcategory": "Mathematics",
+    "description": "...",
+    "icon": "fas fa-square-root-alt",
+    "link": "../files/math/VECTORS_IN_THE_PLANE.pdf.pdf"
   }
 ]
