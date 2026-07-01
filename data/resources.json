@@ -108,7 +108,7 @@
     "track": "STEM",
     "subcategory": "Mathematics",
     "description": "Lessons and exercises on mathematical relations, domains, and functions.",
-    "icon": "fas fa-variable",
+    "icon": "fas fa-square-root-variable",
     "link": "../files/math/FUNCTIONS.pdf"
   },
   {
