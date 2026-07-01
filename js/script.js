@@ -63,10 +63,8 @@ if (previewGrid) {
   fetch("data/articles.json")
     .then((response) => response.json())
     .then((data) => {
-      // Sort newest first
       data.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-      // Show first 3
       const latest = data.slice(0, 3);
 
       latest.forEach((article) => {

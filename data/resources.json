@@ -7,8 +7,6 @@
     "icon": "fas fa-square-root-alt",
     "link": "../files/math/7_GEOMETRY.pdf"
   },
-
-
   {
     "title": "Geometry (8th Grade)",
     "track": "STEM",
@@ -74,91 +72,91 @@
     "link": "../files/math/11_APPLIED_MATHS.pdf"
   }, 
   {
-    "title": "Analytic Analysis of Lines and Cirlces",
+    "title": "Analytic Analysis of Lines and Circles",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises on the coordinate geometry of lines and circles.",
+    "icon": "fas fa-draw-polygon",
     "link": "../files/math/Analytic_Analysis_of_LINES_and_CIRCLES.pdf"
   },
   {
     "title": "Angles and Triangles",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises exploring the properties of angles and triangles.",
+    "icon": "fas fa-shapes",
     "link": "../files/math/ANGLES_and_TRIANGLES.pdf"
   },
   {
     "title": "Areas of Polygonal Regions",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description":"...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises on calculating the area of various polygons.",
+    "icon": "fas fa-th",
     "link": "../files/math/Areas_of_Polygonal_Regions.pdf"
   }, 
   {
     "title": "Derivatives",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Introduction to calculus concepts, limits, and derivative exercises.",
+    "icon": "fas fa-chart-line",
     "link": "../files/math/Derivatives (Zambak) ( PDFDrive ) (3).pdf"
   },
   {
     "title": "Functions",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises on mathematical relations, domains, and functions.",
+    "icon": "fas fa-variable",
     "link": "../files/math/FUNCTIONS.pdf"
   },
   {
     "title": "Intro To Trigonometry",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises on trigonometric ratios, functions, and identities.",
+    "icon": "fas fa-calculator",
     "link": "../files/math/INTRO_TO_TRIGONOMETRY.pdf"
   },
   {
     "title": "Polygons",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises on the classification and properties of polygons.",
+    "icon": "fas fa-draw-polygon",
     "link": "../files/math/POLYGONS.pdf"
   },
   {
     "title": "Polynomials",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises on polynomial operations and factoring.",
+    "icon": "fas fa-superscript",
     "link": "../files/math/POLYNOMIALS.pdf"
   },
   {
     "title": "Quadratics",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises on quadratic equations, functions, and graphing.",
+    "icon": "fas fa-project-diagram",
     "link": "../files/math/QUADRATICS.pdf"
   },
   {
     "title": "Sequence",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
+    "description": "Lessons and exercises exploring arithmetic and geometric sequences.",
+    "icon": "fas fa-list-ol",
     "link": "../files/math/SEQUENCE.pdf"
   },
   {
     "title": "Vectors in the Plane",
     "track": "STEM",
     "subcategory": "Mathematics",
-    "description": "...",
-    "icon": "fas fa-square-root-alt",
-    "link": "../files/math/VECTORS_IN_THE_PLANE.pdf.pdf"
+    "description": "Lessons and exercises on 2D vector operations and geometric applications.",
+    "icon": "fas fa-external-link-alt",
+    "link": "../files/math/VECTORS_IN_THE_PLANE.pdf"
   }
 ]

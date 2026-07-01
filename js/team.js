@@ -1,20 +1,16 @@
 const teamContainer = document.querySelector("#team-container");
 
 if (teamContainer) {
-
-    fetch("../data/team.json")
-        .then(response => response.json())
-        .then(data => displayDepartments(data));
-
+  fetch("../data/team.json")
+    .then((response) => response.json())
+    .then((data) => displayDepartments(data));
 }
 
 function displayDepartments(departments) {
+  teamContainer.innerHTML = "";
 
-    teamContainer.innerHTML = "";
-
-    departments.forEach(department => {
-
-        let html = `
+  departments.forEach((department) => {
+    let html = `
 
         <section class="department">
 
@@ -24,9 +20,8 @@ function displayDepartments(departments) {
 
         `;
 
-        department.members.forEach(member => {
-
-            html += `
+    department.members.forEach((member) => {
+      html += `
 
             <div class="person-card">
 
@@ -48,10 +43,9 @@ function displayDepartments(departments) {
             </div>
 
             `;
+    });
 
-        });
-
-        html += `
+    html += `
 
             </div>
 
@@ -59,8 +53,6 @@ function displayDepartments(departments) {
 
         `;
 
-        teamContainer.innerHTML += html;
-
-    });
-
+    teamContainer.innerHTML += html;
+  });
 }

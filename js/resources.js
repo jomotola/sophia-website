@@ -74,7 +74,6 @@ function displayResources(list) {
 function applyFilters() {
   let filtered = [...resources];
 
-  // Search
   if (currentSearch !== "") {
     filtered = filtered.filter((resource) =>
       (resource.title + resource.description + resource.track)
@@ -83,12 +82,12 @@ function applyFilters() {
     );
   }
 
-  // Main Track
+
   if (currentTrack !== "All") {
     filtered = filtered.filter((resource) => resource.track === currentTrack);
   }
 
-  // STEM Subcategory
+
   if (currentTrack === "STEM" && currentStem !== "All") {
     filtered = filtered.filter(
         resource => resource.subcategory === currentStem
@@ -120,12 +119,10 @@ function setupTrackFilters() {
 
       currentStem = "All";
 
-      // Reset STEM buttons
       stemButtons.forEach((btn) => btn.classList.remove("active"));
 
       stemButtons[0].classList.add("active");
 
-      // Show STEM options only when STEM selected
       if (currentTrack === "STEM") {
         stemFilters.style.display = "flex";
       } else {
