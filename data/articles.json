@@ -1,22 +1,98 @@
 [
-    {
+  {
     "id": 1,
-    "title": "Writing Better Essays",
-    "author": "Sophia Journalism Team",
-    "date": "March 9, 2026",
-    "category": "Essay Writing",
-    "description": "Learn how to improve your college essays.",
-    "image": "../images/articles/essay.jpg",
-    "content": "<p>This is the full article...</p>"
-},
-    {
-        "id":2,
-        "title":"Preparing for Summer Programs",
-        "author":"Sophia Journalism Team",
-        "category":"Summer Programs",
-        "date":"2026-03-05",
-        "description":"Everything you should know before applying.",
-        "image":"../images/articles/summer.jpg",
-        "content":"<p>...</p>"
-    }
+    "title": "Sophia Girls Academy: More Than Just an Educational Platform",
+    "author": "Sophia Girls Academy Journalism Department",
+    "date": "2026-06-28",
+    "category": "Summer Programs",
+    "image": "../images/articles/sophia-girls.jpeg",
+    "featured": true,
+
+    "description": "Learn how Sophia Girls Academy was founded and how it is helping girls access educational opportunities around the world.",
+
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Not everyone grows up with the same opportunities. For many girls living in rural areas, finding information about scholarships, universities, or even someone to ask for advice can be difficult. Sophia Girls Academy was created to help change that."
+      },
+
+      {
+        "type": "heading",
+        "text": "How It Started"
+      },
+
+      {
+        "type": "paragraph",
+        "text": "Sophia Girls Academy was founded by Bakdana and her friend Azhar. She knew how challenging it could be to find educational opportunities and prepare for exams."
+      },
+
+      {
+        "type": "paragraph",
+        "text": "Together, they created Sophia Girls Academy to provide free education, mentorship, and academic support for girls around the world. Their goal is simple: to help every girl reach her potential, no matter where she comes from."
+      },
+
+      {
+        "type": "heading",
+        "text": "Our Mission"
+      },
+
+      {
+        "type": "paragraph",
+        "text": "Our goal is to support girls from rural areas by giving them access to educational and professional opportunities. We help students learn about scholarships, university admissions, international programs, and important exams while also teaching practical skills they can use in their studies and future careers."
+      },
+
+      {
+        "type": "paragraph",
+        "text": "More than anything, we want to build a community where ambitious girls can learn, grow, and support one another."
+      },
+
+      {
+        "type": "heading",
+        "text": "What We Offer"
+      },
+
+      {
+        "type": "list",
+        "items": [
+          "Mathematics",
+          "Physics",
+          "Chemistry",
+          "English",
+          "Communication Skills",
+          "Financial Literacy & Marketing Basics",
+          "Basic Technical Skills (Excel, Word, and PowerPoint)",
+          "UK College Preparation & Guidance",
+          "SAT for Beginners",
+          "STEM Education",
+          "Mentorship and Academic Support",
+          "Personal Development"
+        ]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "Whether you're looking to improve your grades, prepare for university, or simply learn something new, there's a place for you here."
+      },
+
+      {
+        "type": "heading",
+        "text": "How the Program Works"
+      },
+
+      {
+        "type": "paragraph",
+        "text": "The program officially starts on July 1. Students join WhatsApp groups based on the tracks they choose. Some mentors offer individual sessions through Calendly, while others teach through group lessons, workshops, and webinars."
+      },
+
+      {
+        "type": "paragraph",
+        "text": "Every two weeks, participants complete a short feedback form so we can continue improving the learning experience for everyone."
+      },
+
+      {
+        "type": "paragraph",
+        "text": "Sophia Girls Academy is more than an educational program. It's a community that believes every girl deserves the chance to reach her full potential. No matter where you come from, your future should be shaped by your ambitions, not by your location."
+      }
+    ]
+  }
 ]

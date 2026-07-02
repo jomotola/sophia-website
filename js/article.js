@@ -6,28 +6,22 @@ const articleTitle = document.querySelector("#article-title");
 
 // LOAD ARTICLES (articles.html)
 if (articleContainer) {
-
-    fetch("../data/articles.json")
-        .then(response => response.json())
-        .then(data => {
-
-            displayArticles(data);
-            setupFilters();
-            setupSearch();
-
-        })
-        .catch(error => console.error(error));
-
+  fetch("../data/articles.json")
+    .then((response) => response.json())
+    .then((data) => {
+      displayArticles(data);
+      setupFilters();
+      setupSearch();
+    })
+    .catch((error) => console.error(error));
 }
 
 // DISPLAY ARTICLES
 function displayArticles(articles) {
+  articleContainer.innerHTML = "";
 
-    articleContainer.innerHTML = "";
-
-    articles.forEach(article => {
-
-        articleContainer.innerHTML += `
+  articles.forEach((article) => {
+    articleContainer.innerHTML += `
 
         <article
             class="article-card"
@@ -58,121 +52,101 @@ function displayArticles(articles) {
         </article>
 
         `;
-
-    });
-
+  });
 }
 
 // SEARCH BAR
 function setupSearch() {
+  if (!searchBar) return;
 
-    if (!searchBar) return;
+  searchBar.addEventListener("input", (e) => {
+    const value = e.target.value.toLowerCase();
 
-    searchBar.addEventListener("input", e => {
+    document.querySelectorAll(".article-card").forEach((card) => {
+      const text = card.innerText.toLowerCase();
 
-        const value = e.target.value.toLowerCase();
-
-        document.querySelectorAll(".article-card").forEach(card => {
-
-            const text = card.innerText.toLowerCase();
-
-            card.style.display =
-                text.includes(value)
-                    ? ""
-                    : "none";
-
-        });
-
+      card.style.display = text.includes(value) ? "" : "none";
     });
-
+  });
 }
 
 // CATEGORY FILTERS
 function setupFilters() {
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      filterButtons.forEach((btn) => btn.classList.remove("active"));
 
-    filterButtons.forEach(button => {
+      button.classList.add("active");
 
-        button.addEventListener("click", () => {
+      const category = button.dataset.category;
 
-            filterButtons.forEach(btn =>
-                btn.classList.remove("active")
-            );
+      document.querySelectorAll(".article-card").forEach((card) => {
+        const articleCategory = card.dataset.category;
 
-            button.classList.add("active");
-
-            const category = button.dataset.category;
-
-            document.querySelectorAll(".article-card").forEach(card => {
-
-                const articleCategory = card.dataset.category;
-
-                if (
-                    category === "All" ||
-                    articleCategory === category
-                ) {
-
-                    card.style.display = "";
-
-                } else {
-
-                    card.style.display = "none";
-
-                }
-
-            });
-
-        });
-
+        if (category === "All" || articleCategory === category) {
+          card.style.display = "";
+        } else {
+          card.style.display = "none";
+        }
+      });
     });
-
+  });
 }
 
 // LOAD SINGLE ARTICLE (article.html)
 
 if (articleTitle) {
+  const params = new URLSearchParams(window.location.search);
 
-    const params = new URLSearchParams(window.location.search);
+  const id = params.get("id");
 
-    const id = params.get("id");
+  fetch("../data/articles.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const article = data.find((a) => a.id == id);
 
-    fetch("../data/articles.json")
-        .then(response => response.json())
-        .then(data => {
-
-            const article = data.find(a => a.id == id);
-
-            if (article) {
-
-                showArticle(article);
-
-            }
-
-        })
-        .catch(error => console.error(error));
-
+      if (article) {
+        showArticle(article);
+      }
+    })
+    .catch((error) => console.error(error));
 }
 
 // DISPLAY SINGLE ARTICLE
 function showArticle(article) {
+  document.querySelector("#article-title").textContent = article.title;
 
-    document.querySelector("#article-title").textContent =
-        article.title;
+  document.querySelector("#article-author").textContent = article.author;
 
-    document.querySelector("#article-author").textContent =
-        article.author;
+  document.querySelector("#article-date").textContent = article.date;
 
-    document.querySelector("#article-date").textContent =
-        article.date;
+  document.querySelector("#article-category").textContent = article.category;
 
-    document.querySelector("#article-category").textContent =
-        article.category;
+  document.querySelector("#article-image").src = article.image;
 
-    const image = document.querySelector("#article-image");
+  const articleContent = document.querySelector("#article-content");
 
-    image.src = article.image;
-    image.alt = article.title;
+  articleContent.innerHTML = "";
 
-    document.querySelector("#article-content").innerHTML =
-        article.content;
+  article.content.forEach((section) => {
+    if (section.type === "heading") {
+      articleContent.innerHTML += `
+                <h2>${section.text}</h2>
+            `;
+    } else if (section.type === "paragraph") {
+      articleContent.innerHTML += `
+                <p>${section.text}</p>
+            `;
+    } else if (section.type === "list") {
+      let list = "<ul>";
 
+      section.items.forEach((item) => {
+        list += `<li>${item}</li>`;
+      });
+
+      list += "</ul>";
+
+      articleContent.innerHTML += list;
+    }
+  });
 }
