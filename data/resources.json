@@ -158,5 +158,51 @@
     "description": "Lessons and exercises on 2D vector operations and geometric applications.",
     "icon": "fas fa-external-link-alt",
     "link": "../files/math/VECTORS_IN_THE_PLANE.pdf"
+  }, 
+  {
+    "title": "Introduction to Inorganic Chemistry",
+    "track": "STEM",
+    "subcategory": "Chemistry",
+    "description": "Lessons and exercises on the fundamental concepts of inorganic chemistry.",
+    "icon": "fas fa-atom",
+    "link": "../files/chem/files/chem/Full.pdf"
+  }, 
+  {
+    "title": "Functional Groups #1",
+    "track":"STEM",
+    "subcategory": "Chemistry",
+    "description": "Lessons and exercises on the identification and properties of functional groups in organic chemistry.",
+    "icon": "fas fa-flask",
+    "link": "../files/chem/Functional_groups.pdf"
+  }, 
+  {
+    "title": "Functional Groups #2",
+    "track":"STEM",
+    "subcategory": "Chemistry",
+    "description": "Lessons and exercises on the identification and properties of functional groups in organic chemistry.",
+    "icon": "fas fa-flask",
+    "link": "../files/chem/functionalgroups.pdf"
+  }, 
+  {
+    "title": "Thermochemistry",
+    "track":"STEM",
+    "subcategory": "Chemistry",
+    "description": "Lessons and exercises on the principles of thermochemistry, including energy changes in chemical reactions.",
+    "icon": "fas fa-fire",
+    "link": "../files/chem/thermochemistry.pdf"
+  }, 
+  {
+    "title": "SAT Math - Advanced Guide and Workbook (The College Panda)",
+    "track": "SAT",
+    "description": "SAT math practice and exercises from The College Panda, covering advanced topics and strategies for the SAT Math section.",
+    "icon": "fas fa-book",
+    "link": "../files/sat/College panda MATH for DSAT @DSATuz.pdf"
+  }, 
+  {
+    "title": "The Ultimate Guide to SAT Grammar",
+    "track": "SAT",
+    "description": "A comprehensive guide to mastering the SAT grammar section with practical exercises and strategies.",
+    "icon": "fas fa-book",
+    "link": "../files/sat/ERICA Grammar @DSATuz.pdf"
   }
 ]
