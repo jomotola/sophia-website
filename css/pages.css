@@ -135,6 +135,7 @@
 .articles-page h1 {
   text-align: center;
   color: var(--rose);
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
