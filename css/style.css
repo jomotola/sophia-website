@@ -576,6 +576,84 @@ footer h3 {
   margin-bottom: 1rem;
 }
 
+/*404 PAGE*/
+.error-page {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.error-card {
+    max-width: 650px;
+    width: 100%;
+
+    text-align: center;
+
+    padding: 4rem 3rem;
+
+    background: rgba(255,255,255,.75);
+    backdrop-filter: blur(14px);
+
+    border-radius: 35px;
+
+    box-shadow: var(--shadow);
+}
+
+.error-logo {
+    width: 120px;
+    margin-bottom: 2rem;
+
+    animation: float 5s ease-in-out infinite;
+}
+
+.error-card h1 {
+    font-size: 7rem;
+    color: var(--primary-pink);
+    line-height: 1;
+}
+
+.error-card h2 {
+    margin: 1rem 0;
+    color: var(--rose);
+    font-size: 2rem;
+}
+
+.error-card p {
+    max-width: 520px;
+    margin: 0 auto 2.5rem;
+
+    opacity: .8;
+    font-size: 1.05rem;
+}
+
+.error-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.secondary-btn {
+    background: white;
+    color: var(--rose);
+
+    border: 2px solid var(--primary-pink);
+}
+
+.secondary-btn:hover {
+    background: var(--primary-pink);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.error-buttons .btn i {
+    margin-right: .5rem;
+}
+
 /*ANIMATIONS*/
 @keyframes float{
 
@@ -642,6 +720,22 @@ footer h3 {
     .logo img{
         width:45px;
         height:45px;
+    }
+
+    .error-card{
+        padding:3rem 2rem;
+    }
+
+    .error-card h1{
+        font-size:5rem;
+    }
+
+    .error-card h2{
+        font-size:1.6rem;
+    }
+
+    .error-buttons .btn{
+        width:100%;
     }
 
 }

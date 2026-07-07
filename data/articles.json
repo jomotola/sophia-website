@@ -7,50 +7,40 @@
     "category": "Summer Programs",
     "image": "../images/articles/sophia-girls.jpeg",
     "featured": true,
-
     "description": "Learn how Sophia Girls Academy was founded and how it is helping girls access educational opportunities around the world.",
-
     "content": [
       {
         "type": "paragraph",
         "text": "Not everyone grows up with the same opportunities. For many girls living in rural areas, finding information about scholarships, universities, or even someone to ask for advice can be difficult. Sophia Girls Academy was created to help change that."
       },
-
       {
         "type": "heading",
         "text": "How It Started"
       },
-
       {
         "type": "paragraph",
         "text": "Sophia Girls Academy was founded by Bakdana and her friend Azhar. She knew how challenging it could be to find educational opportunities and prepare for exams."
       },
-
       {
         "type": "paragraph",
         "text": "Together, they created Sophia Girls Academy to provide free education, mentorship, and academic support for girls around the world. Their goal is simple: to help every girl reach her potential, no matter where she comes from."
       },
-
       {
         "type": "heading",
         "text": "Our Mission"
       },
-
       {
         "type": "paragraph",
         "text": "Our goal is to support girls from rural areas by giving them access to educational and professional opportunities. We help students learn about scholarships, university admissions, international programs, and important exams while also teaching practical skills they can use in their studies and future careers."
       },
-
       {
         "type": "paragraph",
         "text": "More than anything, we want to build a community where ambitious girls can learn, grow, and support one another."
       },
-
       {
         "type": "heading",
         "text": "What We Offer"
       },
-
       {
         "type": "list",
         "items": [
@@ -68,27 +58,22 @@
           "Personal Development"
         ]
       },
-
       {
         "type": "paragraph",
         "text": "Whether you're looking to improve your grades, prepare for university, or simply learn something new, there's a place for you here."
       },
-
       {
         "type": "heading",
         "text": "How the Program Works"
       },
-
       {
         "type": "paragraph",
         "text": "The program officially starts on July 1. Students join WhatsApp groups based on the tracks they choose. Some mentors offer individual sessions through Calendly, while others teach through group lessons, workshops, and webinars."
       },
-
       {
         "type": "paragraph",
         "text": "Every two weeks, participants complete a short feedback form so we can continue improving the learning experience for everyone."
       },
-
       {
         "type": "paragraph",
         "text": "Sophia Girls Academy is more than an educational program. It's a community that believes every girl deserves the chance to reach her full potential. No matter where you come from, your future should be shaped by your ambitions, not by your location."
@@ -96,194 +81,74 @@
     ]
   },
   {
-    "id": 1,
-    "title": "Sophia Girls Academy: More Than Just an Educational Platform",
+    "id": 2,
+    "title": "The Woman Who Founded One of the World’s Oldest Universities",
     "author": "Sophia Girls Academy Journalism Department",
-    "date": "2026-06-28",
-    "category": "Summer Programs",
-    "image": "../images/articles/sophia-girls.jpeg",
+    "date": "2026-07-7",
+    "category": "Stories about Legendary Figures",
+    "image": "../images/articles/fatimalafihri.jpg.jpeg",
     "featured": true,
-
     "description": "Learn how Sophia Girls Academy was founded and how it is helping girls access educational opportunities around the world.",
-
     "content": [
       {
         "type": "paragraph",
-        "text": "Not everyone grows up with the same opportunities. For many girls living in rural areas, finding information about scholarships, universities, or even someone to ask for advice can be difficult. Sophia Girls Academy was created to help change that."
+        "text": "When people hear the word university, they usually think of places like Oxford or Harvard. But did you know that one of the world’s oldest universities was founded by a woman over 1,100 years ago?"
       },
-
+      {
+        "type": "paragraph",
+        "text": "Her name was Fatima al-Fihri, and surprisingly, not many people know her story."
+      },
       {
         "type": "heading",
-        "text": "How It Started"
+        "text": "Who Was Fatima al-Fihri?"
       },
-
       {
         "type": "paragraph",
-        "text": "Sophia Girls Academy was founded by Bakdana and her friend Azhar. She knew how challenging it could be to find educational opportunities and prepare for exams."
+        "text": "Fatima was born in the 9th century and later moved with her family to Fez, Morocco. Her father was a successful businessman who believed that education was important. After his death, Fatima and her sister inherited his wealth."
       },
-
       {
         "type": "paragraph",
-        "text": "Together, they created Sophia Girls Academy to provide free education, mentorship, and academic support for girls around the world. Their goal is simple: to help every girl reach her potential, no matter where she comes from."
+        "text": "Many people would have spent that money on themselves, but Fatima had a different idea. She wanted to create something that would help people not only then, but in the future as well."
       },
-
       {
         "type": "heading",
-        "text": "Our Mission"
+        "text": "A Place Where Anyone Could Learn"
       },
-
       {
         "type": "paragraph",
-        "text": "Our goal is to support girls from rural areas by giving them access to educational and professional opportunities. We help students learn about scholarships, university admissions, international programs, and important exams while also teaching practical skills they can use in their studies and future careers."
+        "text": "In 859, Fatima used her inheritance to build a mosque. Over time, it became a place where people came not only to pray but also to study. It later grew into the University of al-Qarawiyyin, which is recognized as one of the oldest universities still operating today."
       },
-
       {
         "type": "paragraph",
-        "text": "More than anything, we want to build a community where ambitious girls can learn, grow, and support one another."
+        "text": "Students studied mathematics, astronomy, languages, medicine, philosophy, and many other subjects. People traveled from different places to learn there, and the university continued to grow for centuries."
       },
-
       {
         "type": "heading",
-        "text": "What We Offer"
+        "text": "Why Is Her Story Important?"
       },
-
-      {
-        "type": "list",
-        "items": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "English",
-          "Communication Skills",
-          "Financial Literacy & Marketing Basics",
-          "Basic Technical Skills (Excel, Word, and PowerPoint)",
-          "UK College Preparation & Guidance",
-          "SAT for Beginners",
-          "STEM Education",
-          "Mentorship and Academic Support",
-          "Personal Development"
-        ]
-      },
-
       {
         "type": "paragraph",
-        "text": "Whether you're looking to improve your grades, prepare for university, or simply learn something new, there's a place for you here."
+        "text": "When we talk about history, we often hear the names of scientists, inventors, or political leaders. But people like Fatima al-Fihri are just as important. She didn’t invent a new technology or make a scientific discovery. Instead, she created a place where thousands of people could learn."
       },
-
+      {
+        "type": "paragraph",
+        "text": "Education gives people opportunities. It helps them build careers, solve problems, and improve their communities. Fatima understood that more than a thousand years ago, and her idea is still relevant today."
+      },
       {
         "type": "heading",
-        "text": "How the Program Works"
+        "text": "What Can We Learn From Her?"
       },
-
       {
         "type": "paragraph",
-        "text": "The program officially starts on July 1. Students join WhatsApp groups based on the tracks they choose. Some mentors offer individual sessions through Calendly, while others teach through group lessons, workshops, and webinars."
+        "text": "Fatima al-Fihri’s story shows that making a difference doesn’t always mean standing in the spotlight. Sometimes, creating opportunities for others has an even bigger impact."
       },
-
       {
         "type": "paragraph",
-        "text": "Every two weeks, participants complete a short feedback form so we can continue improving the learning experience for everyone."
+        "text": "At Sophia Girls Academy, we believe in the same idea. Every girl deserves access to education, support, and the chance to reach her goals. Fatima’s story reminds us that investing in education can change lives—not just for one person, but for generations to come."
       },
-
       {
         "type": "paragraph",
-        "text": "Sophia Girls Academy is more than an educational program. It's a community that believes every girl deserves the chance to reach her full potential. No matter where you come from, your future should be shaped by your ambitions, not by your location."
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Sophia Girls Academy: More Than Just an Educational Platform",
-    "author": "Sophia Girls Academy Journalism Department",
-    "date": "2026-06-28",
-    "category": "Summer Programs",
-    "image": "../images/articles/sophia-girls.jpeg",
-    "featured": true,
-
-    "description": "Learn how Sophia Girls Academy was founded and how it is helping girls access educational opportunities around the world.",
-
-    "content": [
-      {
-        "type": "paragraph",
-        "text": "Not everyone grows up with the same opportunities. For many girls living in rural areas, finding information about scholarships, universities, or even someone to ask for advice can be difficult. Sophia Girls Academy was created to help change that."
-      },
-
-      {
-        "type": "heading",
-        "text": "How It Started"
-      },
-
-      {
-        "type": "paragraph",
-        "text": "Sophia Girls Academy was founded by Bakdana and her friend Azhar. She knew how challenging it could be to find educational opportunities and prepare for exams."
-      },
-
-      {
-        "type": "paragraph",
-        "text": "Together, they created Sophia Girls Academy to provide free education, mentorship, and academic support for girls around the world. Their goal is simple: to help every girl reach her potential, no matter where she comes from."
-      },
-
-      {
-        "type": "heading",
-        "text": "Our Mission"
-      },
-
-      {
-        "type": "paragraph",
-        "text": "Our goal is to support girls from rural areas by giving them access to educational and professional opportunities. We help students learn about scholarships, university admissions, international programs, and important exams while also teaching practical skills they can use in their studies and future careers."
-      },
-
-      {
-        "type": "paragraph",
-        "text": "More than anything, we want to build a community where ambitious girls can learn, grow, and support one another."
-      },
-
-      {
-        "type": "heading",
-        "text": "What We Offer"
-      },
-
-      {
-        "type": "list",
-        "items": [
-          "Mathematics",
-          "Physics",
-          "Chemistry",
-          "English",
-          "Communication Skills",
-          "Financial Literacy & Marketing Basics",
-          "Basic Technical Skills (Excel, Word, and PowerPoint)",
-          "UK College Preparation & Guidance",
-          "SAT for Beginners",
-          "STEM Education",
-          "Mentorship and Academic Support",
-          "Personal Development"
-        ]
-      },
-
-      {
-        "type": "paragraph",
-        "text": "Whether you're looking to improve your grades, prepare for university, or simply learn something new, there's a place for you here."
-      },
-
-      {
-        "type": "heading",
-        "text": "How the Program Works"
-      },
-
-      {
-        "type": "paragraph",
-        "text": "The program officially starts on July 1. Students join WhatsApp groups based on the tracks they choose. Some mentors offer individual sessions through Calendly, while others teach through group lessons, workshops, and webinars."
-      },
-
-      {
-        "type": "paragraph",
-        "text": "Every two weeks, participants complete a short feedback form so we can continue improving the learning experience for everyone."
-      },
-
-      {
-        "type": "paragraph",
-        "text": "Sophia Girls Academy is more than an educational program. It's a community that believes every girl deserves the chance to reach her full potential. No matter where you come from, your future should be shaped by your ambitions, not by your location."
+        "text": "Photo Source: https://www.dailygoodmorningkashmir.com/fatima-al-fihri-the-woman-who-founded-worlds-first-university/"
       }
     ]
   }
