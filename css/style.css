@@ -482,6 +482,15 @@ section h2{
   margin-top: 3rem;
 }
 
+.read-more {
+    color: var(--primary-pink);
+    text-decoration: none;
+}
+
+.read-more:hover {
+    color: var(--secondary-pink);
+}
+
 
 /*CONTACT*/
 .contact {
