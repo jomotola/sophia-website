@@ -112,7 +112,7 @@ if (search && clearBtn) {
 document
   .querySelector(".contact-form form")
   .addEventListener("submit", function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
 
     const form = e.target;
     const button = form.querySelector('button[type="submit"]');
@@ -144,3 +144,20 @@ document
         button.disabled = false;
       });
   });
+
+//mobile menu
+const menu = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+
+menu.addEventListener("click", () => {
+  menu.classList.toggle("active");
+
+  nav.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-links a").forEach((link) => {
+  link.addEventListener("click", () => {
+    menu.classList.remove("active");
+    nav.classList.remove("active");
+  });
+});
