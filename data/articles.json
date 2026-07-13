@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -84,7 +85,7 @@
     "id": 2,
     "title": "The Woman Who Founded One of the World’s Oldest Universities",
     "author": "Sophia Girls Academy Journalism Department",
-    "date": "2026-07-7",
+    "date": "2026-07-07",
     "category": "Stories about Legendary Figures",
     "image": "../images/articles/fatimalafihri.jpg.jpeg",
     "featured": true,
@@ -146,12 +147,6 @@
         "type": "paragraph",
         "text": "At Sophia Girls Academy, we believe in the same idea. Every girl deserves access to education, support, and the chance to reach her goals. Fatima’s story reminds us that investing in education can change lives—not just for one person, but for generations to come."
       },
-      {
-        "type": "paragraph",
-        "text": "Photo Source: https://www.dailygoodmorningkashmir.com/fatima-al-fihri-the-woman-who-founded-worlds-first-university/"
-      }
-    ]
-  }
       {
         "type": "paragraph",
         "text": "Photo Source: https://www.dailygoodmorningkashmir.com/fatima-al-fihri-the-woman-who-founded-worlds-first-university/"
@@ -231,3 +226,4 @@
     ]
   }
 ]
+
