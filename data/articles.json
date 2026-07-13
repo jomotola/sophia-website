@@ -12,7 +12,7 @@
     "content": [
       {
         "type": "paragraph",
-        "text": "Not everyone grows up with the same opportunities. For many girls living in rural areas, finding information about scholarships, universities, or even someone to ask for advice can be difficult. Sophia Girls Academy was created to help change that."
+        "text": "<p>Not everyone grows up with the same opportunities. For many girls living in rural areas, finding information about scholarships, universities, or even someone to ask for advice can be difficult. Sophia Girls Academy was created to help change that.</p>"
       },
       {
         "type": "heading",
@@ -20,11 +20,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Sophia Girls Academy was founded by Bakdana and her friend Azhar. She knew how challenging it could be to find educational opportunities and prepare for exams."
+        "text": "<p>Sophia Girls Academy was founded by Bakdana and her friend Azhar. She knew how challenging it could be to find educational opportunities and prepare for exams.</p>"
       },
       {
         "type": "paragraph",
-        "text": "Together, they created Sophia Girls Academy to provide free education, mentorship, and academic support for girls around the world. Their goal is simple: to help every girl reach her potential, no matter where she comes from."
+        "text": "<p>Together, they created Sophia Girls Academy to provide free education, mentorship, and academic support for girls around the world. Their goal is simple: to help every girl reach her potential, no matter where she comes from.</p>"
       },
       {
         "type": "heading",
@@ -32,11 +32,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Our goal is to support girls from rural areas by giving them access to educational and professional opportunities. We help students learn about scholarships, university admissions, international programs, and important exams while also teaching practical skills they can use in their studies and future careers."
+        "text": "<p>Our goal is to support girls from rural areas by giving them access to educational and professional opportunities. We help students learn about scholarships, university admissions, international programs, and important exams while also teaching practical skills they can use in their studies and future careers.</p>"
       },
       {
         "type": "paragraph",
-        "text": "More than anything, we want to build a community where ambitious girls can learn, grow, and support one another."
+        "text": "<p>More than anything, we want to build a community where ambitious girls can learn, grow, and support one another.</p>"
       },
       {
         "type": "heading",
@@ -61,7 +61,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Whether you're looking to improve your grades, prepare for university, or simply learn something new, there's a place for you here."
+        "text": "<p>Whether you're looking to improve your grades, prepare for university, or simply learn something new, there's a place for you here.</p>"
       },
       {
         "type": "heading",
@@ -69,15 +69,15 @@
       },
       {
         "type": "paragraph",
-        "text": "The program officially starts on July 1. Students join WhatsApp groups based on the tracks they choose. Some mentors offer individual sessions through Calendly, while others teach through group lessons, workshops, and webinars."
+        "text": "<p>The program officially starts on <strong>July 1</strong>. Students join WhatsApp groups based on the tracks they choose. Some mentors offer individual sessions through Calendly, while others teach through group lessons, workshops, and webinars.</p>"
       },
       {
         "type": "paragraph",
-        "text": "Every two weeks, participants complete a short feedback form so we can continue improving the learning experience for everyone."
+        "text": "<p>Every two weeks, participants complete a short feedback form so we can continue improving the learning experience for everyone.</p>"
       },
       {
         "type": "paragraph",
-        "text": "Sophia Girls Academy is more than an educational program. It's a community that believes every girl deserves the chance to reach her full potential. No matter where you come from, your future should be shaped by your ambitions, not by your location."
+        "text": "<p>Sophia Girls Academy is more than an educational program. It’s a community that believes every girl deserves the chance to reach her full potential. No matter where you come from, your future should be shaped by your ambitions, not by your location.</p>"
       }
     ]
   },
@@ -85,19 +85,19 @@
     "id": 2,
     "title": "The Woman Who Founded One of the World’s Oldest Universities",
     "author": "Zhanel Bakhmanova",
-    "date": "2026-07-07",
+    "date": "2026-07-7",
     "category": "Stories about Legendary Figures",
     "image": "../images/articles/fatimalafihri.jpg.jpeg",
     "featured": true,
-    "description": "Learn how Sophia Girls Academy was founded and how it is helping girls access educational opportunities around the world.",
+    "description": "Learn about Fatima al-Fihri, the woman who founded one of the world’s oldest universities over 1,000 years ago, and how her story continues to inspire girls today.",
     "content": [
       {
         "type": "paragraph",
-        "text": "When people hear the word university, they usually think of places like Oxford or Harvard. But did you know that one of the world’s oldest universities was founded by a woman over 1,100 years ago?"
+        "text": "<p>When people hear the word <em>university</em>, they usually think of places like Oxford or Harvard. But did you know that one of the world’s oldest universities was founded by a woman over 1,100 years ago?</p>"
       },
       {
         "type": "paragraph",
-        "text": "Her name was Fatima al-Fihri, and surprisingly, not many people know her story."
+        "text": "<p>Her name was <strong>Fatima al-Fihri</strong>, and surprisingly, not many people know her story.</p>"
       },
       {
         "type": "heading",
@@ -105,11 +105,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Fatima was born in the 9th century and later moved with her family to Fez, Morocco. Her father was a successful businessman who believed that education was important. After his death, Fatima and her sister inherited his wealth."
+        "text": "<p>Fatima was born in the 9th century and later moved with her family to Fez, Morocco. Her father was a successful businessman who believed that education was important. After his death, Fatima and her sister inherited his wealth.</p>"
       },
       {
         "type": "paragraph",
-        "text": "Many people would have spent that money on themselves, but Fatima had a different idea. She wanted to create something that would help people not only then, but in the future as well."
+        "text": "<p>Many people would have spent that money on themselves, but Fatima had a different idea. She wanted to create something that would help people not only then, but in the future as well.</p>"
       },
       {
         "type": "heading",
@@ -117,11 +117,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In 859, Fatima used her inheritance to build a mosque. Over time, it became a place where people came not only to pray but also to study. It later grew into the University of al-Qarawiyyin, which is recognized as one of the oldest universities still operating today."
+        "text": "<p>In 859, Fatima used her inheritance to build a mosque. Over time, it became a place where people came not only to pray but also to study. It later grew into the University of al-Qarawiyyin, which is recognized as one of the oldest universities still operating today.</p>"
       },
       {
         "type": "paragraph",
-        "text": "Students studied mathematics, astronomy, languages, medicine, philosophy, and many other subjects. People traveled from different places to learn there, and the university continued to grow for centuries."
+        "text": "<p>Students studied mathematics, astronomy, languages, medicine, philosophy, and many other subjects. People traveled from different places to learn there, and the university continued to grow for centuries.</p>"
       },
       {
         "type": "heading",
@@ -129,11 +129,11 @@
       },
       {
         "type": "paragraph",
-        "text": "When we talk about history, we often hear the names of scientists, inventors, or political leaders. But people like Fatima al-Fihri are just as important. She didn’t invent a new technology or make a scientific discovery. Instead, she created a place where thousands of people could learn."
+        "text": "<p>When we talk about history, we often hear the names of scientists, inventors, or political leaders. But people like Fatima al-Fihri are just as important. She didn’t invent a new technology or make a scientific discovery. Instead, she created a place where thousands of people could learn.</p>"
       },
       {
         "type": "paragraph",
-        "text": "Education gives people opportunities. It helps them build careers, solve problems, and improve their communities. Fatima understood that more than a thousand years ago, and her idea is still relevant today."
+        "text": "<p>Education gives people opportunities. It helps them build careers, solve problems, and improve their communities. Fatima understood that more than a thousand years ago, and her idea is still relevant today.</p>"
       },
       {
         "type": "heading",
@@ -141,35 +141,39 @@
       },
       {
         "type": "paragraph",
-        "text": "Fatima al-Fihri’s story shows that making a difference doesn’t always mean standing in the spotlight. Sometimes, creating opportunities for others has an even bigger impact."
+        "text": "<p>Fatima al-Fihri’s story shows that making a difference doesn’t always mean standing in the spotlight. Sometimes, creating opportunities for others has an even bigger impact.</p>"
       },
       {
         "type": "paragraph",
-        "text": "At Sophia Girls Academy, we believe in the same idea. Every girl deserves access to education, support, and the chance to reach her goals. Fatima’s story reminds us that investing in education can change lives—not just for one person, but for generations to come."
+        "text": "<p>At Sophia Girls Academy, we believe in the same idea. Every girl deserves access to education, support, and the chance to reach her goals. Fatima’s story reminds us that investing in education can change lives—not just for one person, but for generations to come.</p>"
+      },
+      {
+        "type": "heading",
+        "text": "Credits"
       },
       {
         "type": "paragraph",
-        "text": "Photo Source: https://www.dailygoodmorningkashmir.com/fatima-al-fihri-the-woman-who-founded-worlds-first-university/"
+        "text": "<ul><li>Photo Source: <a href='https://www.dailygoodmorningkashmir.com/fatima-al-fihri-the-woman-who-founded-worlds-first-university/' target='blank'>Daily Good Morning Kashmir</a></li></ul>"
       }
     ]
   },
   {
     "id": 3,
     "title": "The Woman Who Dared to Say Women Deserved More",
-    "author":"Zhanel Bakhmanova",
-    "date": "2026-07-12",
+    "author": "Zhanel Bakhmanova",
+    "date": "07-03-2026",
     "category": "Stories about Legendary Figures",
-    "image": "../images/articles/Margaret-Fuller.webp",
+    "image": "../images/articles/Magaret-Fuller.jpeg",
     "featured": true,
     "description": "Discover how Margaret Fuller became one of the earliest voices advocating for women's education, equality, and the freedom to choose their own paths.",
     "content": [
       {
         "type": "paragraph",
-        "text": "In July 1843, an essay called The Great Lawsuit was published in The Dial magazine. Today, many people consider it one of the first feminist works in American history. The woman behind it was Margaret Fuller."
+        "text": "<p>In July 1843, an essay called <em>The Great Lawsuit</em> was published in <strong>The Dial</strong> magazine. Today, many people consider it one of the first feminist works in American history. The woman behind it was <strong>Margaret Fuller</strong>.</p>"
       },
       {
         "type": "paragraph",
-        "text": "Although her name isn’t as well known as many other historical figures, her ideas helped start important conversations about women’s rights and education."
+        "text": "<p>Although her name isn’t as well known as many other historical figures, her ideas helped start important conversations about women’s rights and education.</p>"
       },
       {
         "type": "heading",
@@ -177,11 +181,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Margaret Fuller was an American writer, editor, and journalist. At a time when women were expected to focus only on their homes and families, she believed they should also have access to education, meaningful careers, and the freedom to make their own choices."
+        "text": "<p>Margaret Fuller was an American writer, editor, and journalist. At a time when women were expected to focus only on their homes and families, she believed they should also have access to education, meaningful careers, and the freedom to make their own choices.</p>"
       },
       {
         "type": "paragraph",
-        "text": "She loved learning from a young age and spent years studying literature, history, philosophy, and different languages. Education became a big part of her life, and she wanted other women to have the same opportunities."
+        "text": "<p>She loved learning from a young age and spent years studying literature, history, philosophy, and different languages. Education became a big part of her life, and she wanted other women to have the same opportunities.</p>"
       },
       {
         "type": "heading",
@@ -189,11 +193,11 @@
       },
       {
         "type": "paragraph",
-        "text": "In 1843, Fuller published The Great Lawsuit in The Dial, a literary magazine where she worked as an editor. In her essay, she argued that women should not be limited by society’s expectations. Instead, they should be able to learn, grow, and choose their own paths."
+        "text": "<p>In 1843, Fuller published <em>The Great Lawsuit</em> in <em>The Dial</em>, a literary magazine where she worked as an editor. In her essay, she argued that women should not be limited by society’s expectations. Instead, they should be able to learn, grow, and choose their own paths.</p>"
       },
       {
         "type": "paragraph",
-        "text": "A few years later, she expanded these ideas into a book called Woman in the Nineteenth Century. It became one of the most influential early feminist books in the United States."
+        "text": "<p>A few years later, she expanded these ideas into a book called <em>Woman in the Nineteenth Century</em>. It became one of the most influential early feminist books in the United States.</p>"
       },
       {
         "type": "heading",
@@ -201,11 +205,11 @@
       },
       {
         "type": "paragraph",
-        "text": "Today, it may seem normal for girls to go to school, attend university, and build careers in any field they choose. But in the 19th century, these opportunities were far from guaranteed."
+        "text": "<p>Today, it may seem normal for girls to go to school, attend university, and build careers in any field they choose. But in the 19th century, these opportunities were far from guaranteed.</p>"
       },
       {
         "type": "paragraph",
-        "text": "Margaret Fuller believed that education gives people the freedom to think for themselves. She encouraged women to ask questions, develop their talents, and believe that their voices mattered."
+        "text": "<p>Margaret Fuller believed that education gives people the freedom to think for themselves. She encouraged women to ask questions, develop their talents, and believe that their voices mattered.</p>"
       },
       {
         "type": "heading",
@@ -213,15 +217,19 @@
       },
       {
         "type": "paragraph",
-        "text": "More than 180 years have passed since The Great Lawsuit was first published, but its message is still relevant today. Around the world, many girls are still working to gain equal access to education and opportunities."
+        "text": "<p>More than 180 years have passed since <em>The Great Lawsuit</em> was first published, but its message is still relevant today. Around the world, many girls are still working to gain equal access to education and opportunities.</p>"
       },
       {
         "type": "paragraph",
-        "text": "At Sophia Girls Academy, we believe in the same idea Margaret Fuller shared many years ago: every girl deserves the chance to learn, grow, and build the future she wants. Sometimes, real change begins with one person who is willing to speak up."
+        "text": "<p>At Sophia Girls Academy, we believe in the same idea Margaret Fuller shared many years ago: every girl deserves the chance to learn, grow, and build the future she wants. Sometimes, real change begins with one person who is willing to speak up.</p>"
+      },
+      {
+        "type": "heading",
+        "text": "Credits"
       },
       {
         "type": "paragraph",
-        "text": "Photo Source: https://www.bwht.org/margaret-fuller/"
+        "text": "<ul><li>Photo Source: <a href='https://www.bwht.org/about/biographies/margaret-fuller/' target='blank'>Boston Women’s Heritage Trail</a></li></ul>"
       }
     ]
   },
@@ -229,80 +237,92 @@
   "id": 4,
   "title": "The Woman Who Founded a Political Party Before Women Could Even Vote",
   "author": "Zhanel Bakhmanova",
-  "date": "2026-07-19",
+  "date": "2026-07-12",
   "category": "Stories about Legendary Figures",
   "image": "../images/articles/nezihe.jpg",
   "featured": true,
   "description": "Discover how Nezihe Muhiddin challenged social expectations by founding a political party for women before they even had the right to vote.",
   "content": [
     {
-      "type": "paragraph",
-      "text": "Imagine starting a political party when women weren’t even allowed to vote. It sounds impossible, but that’s exactly what Nezihe Muhiddin tried to do in July 1923. While many people know about the women who later gained the right to vote in Turkey, far fewer know about the woman who helped start that conversation."
-    },
-    {
-      "type": "heading",
-      "text": "Who Was Nezihe Muhiddin?"
-    },
-    {
-      "type": "paragraph",
-      "text": "Nezihe Muhiddin was a Turkish writer, teacher, and women’s rights activist. She believed that women should have the same opportunities as men, not only in education but also in public life and politics."
-    },
-    {
-      "type": "paragraph",
-      "text": "She spent years writing articles and books about women’s rights. However, writing wasn’t enough for her. She wanted to see real change."
-    },
-    {
-      "type": "heading",
-      "text": "A Bold Idea"
-    },
-    {
-      "type": "paragraph",
-      "text": "In July 1923, Nezihe Muhiddin and a group of women founded the People’s Party of Women. Their goal was simple: they wanted women to have a voice in politics and take part in decisions that affected their lives."
-    },
-    {
-      "type": "paragraph",
-      "text": "There was one problem. At that time, women in Turkey didn’t have the right to vote or run for office. Because of this, the party was never officially recognized."
-    },
-    {
-      "type": "paragraph",
-      "text": "Even though the project did not succeed, Nezihe Muhiddin refused to give up."
-    },
-    {
-      "type": "heading",
-      "text": "Continuing the Fight"
-    },
-    {
-      "type": "paragraph",
-      "text": "Instead of stopping, she helped establish the Turkish Women’s Union, an organization that continued working for women’s rights. The union encouraged women to become more involved in education, public life, and social issues."
-    },
-    {
-      "type": "paragraph",
-      "text": "Years later, in 1934, Turkish women gained the right to vote and run for parliament. Although many people remember this achievement, fewer remember those who had been fighting for it long before it became reality."
-    },
-    {
-      "type": "heading",
-      "text": "Why Does Her Story Matter?"
-    },
-    {
-      "type": "paragraph",
-      "text": "Change rarely happens overnight. Before new laws are passed, someone has to ask difficult questions and imagine a different future."
-    },
-    {
-      "type": "paragraph",
-      "text": "Nezihe Muhiddin was one of those people. She believed that women deserved more opportunities and that education, leadership, and equal participation in society should not depend on gender."
-    },
-    {
-      "type": "heading",
-      "text": "Looking Back"
-    },
-    {
-      "type": "paragraph",
-      "text": "Today, girls can study, build careers, and become leaders in ways that once seemed impossible. These opportunities exist because people like Nezihe Muhiddin were willing to challenge the expectations of their time."
-    },
-    {
-      "type": "paragraph",
-      "text": "Photo Source: nezihe.jpg"
-    }
+        "type": "paragraph",
+        "text": "<p>Imagine starting a political party when women weren’t even allowed to vote.</p>"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>It sounds impossible, but that’s exactly what Nezihe Muhiddin tried to do in July 1923. While many people know about the women who later gained the right to vote in Turkey, far fewer know about the woman who helped start that conversation.</p>"
+      },
+      {
+        "type": "heading",
+        "text": "Who Was Nezihe Muhiddin?"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>Nezihe Muhiddin was a Turkish writer, teacher, and women’s rights activist. She believed that women should have the same opportunities as men, not only in education but also in public life and politics.</p>"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>She spent years writing articles and books about women’s rights. However, writing wasn’t enough for her. She wanted to see real change.</p>"
+      },
+      {
+        "type": "heading",
+        "text": "A Bold Idea"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>In July 1923, Nezihe Muhiddin and a group of women founded the People’s Party of Women. Their goal was simple: they wanted women to have a voice in politics and take part in decisions that affected their lives.</p>"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>There was one problem. At that time, women in Turkey didn’t have the right to vote or run for office. Because of this, the party was never officially recognized.</p>"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>Even though the project did not succeed, Nezihe Muhiddin refused to give up.</p>"
+      },
+      {
+        "type": "heading",
+        "text": "Continuing The Fight"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>Instead of stopping, she helped establish the Turkish Women’s Union, an organization that continued working for women’s rights. The union encouraged women to become more involved in education, public life, and social issues.</p>"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>Years later, in 1934, Turkish women gained the right to vote and run for parliament. Although many people remember this achievement, fewer remember those who had been fighting for it long before it became reality.</p>"
+      },
+      {
+        "type": "heading",
+        "text": "Why Does Her Story Matter?"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>Change rarely happens overnight. Before new laws are passed, someone has to ask difficult questions and imagine a different future.</p>"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>Nezihe Muhiddin was one of those people. She believed that women deserved more opportunities and that education, leadership, and equal participation in society should not depend on gender.</p>"
+      },
+      {
+        "type": "heading",
+        "text": "Looking Back"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>Today, girls can study, build careers, and become leaders in ways that once seemed impossible. These opportunities exist because people like Nezihe Muhiddin were willing to challenge the expectations of their time.</p>"
+      },
+      {
+        "type": "paragraph",
+        "text": "<p>Her name may not appear in every history book, but her work helped open doors for future generations. And sometimes, that’s exactly how real change begins.</p>"
+      },
+      {
+        "type": "heading",
+        "text": "Credits"
+      },
+      {
+        "type": "paragraph",
+        "text": "<ul><li>Photo Source: <a href='https://sanatkaravani.com/tarihin-unutulan-kadinlari-nezihe-muhiddin/' target='blank'>Sanat Karavani</a></li></ul>"
+      }
   ]
 }
 ]

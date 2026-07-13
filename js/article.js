@@ -23,33 +23,33 @@ function displayArticles(articles) {
   articles.forEach((article) => {
     articleContainer.innerHTML += `
 
-        <article
-            class="article-card"
-            data-category="${article.category}">
+        <article class="article-card" data-category="${article.category}">
 
-            <img src="${article.image}" alt="${article.title}">
+    <img src="${article.image}" alt="${article.title}">
 
-            <div class="article-content">
+    <div class="article-card-content">
 
-                <span class="category">
-                    ${article.category}
-                </span>
+        <span class="category">${article.category}</span>
 
-                <h3>${article.title}</h3>
+        <h3>${article.title}</h3>
 
-                <p>${article.description}</p>
+        <div class="article-meta">
+            <span>${article.author}</span>
+            <span>•</span>
+            <span>${formatDate(article.date)}</span>
+        </div>
 
-                <a
-                    href="article.html?id=${article.id}"
-                    class="read-more">
+        <p>${article.description}</p>
 
-                    Read More →
+        <a
+            href="article.html?id=${article.id}"
+            class="read-more">
+            Read Article →
+        </a>
 
-                </a>
+    </div>
 
-            </div>
-
-        </article>
+</article>
 
         `;
   });
@@ -147,6 +147,45 @@ function showArticle(article) {
       list += "</ul>";
 
       articleContent.innerHTML += list;
+    } else if (section.type === "quote") {
+      articleContent.innerHTML += `
+        <blockquote>${section.text}</blockquote>
+    `;
+    } else if (section.type === "image") {
+      articleContent.innerHTML += `
+        <img
+            src="${section.src}"
+            alt="${section.alt}"
+            class="article-inline-image">
+    `;
+    } else if (section.type === "callout") {
+      articleContent.innerHTML += `
+    <div class="callout">
+
+      <h4>${section.title}</h4>
+
+      <p>${section.text}</p>
+
+    </div>
+  `;
+    } else if (section.type === "quote") {
+      articleContent.innerHTML += `
+    <blockquote>
+      <p>${section.text}</p>
+      ${section.author ? `<cite>— ${section.author}</cite>` : ""}
+    </blockquote>
+  `;
     }
+  });
+}
+
+// FORMAT DATE
+function formatDate(dateString) {
+  const date = new Date(dateString);
+
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
   });
 }
