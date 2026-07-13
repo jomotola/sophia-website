@@ -3,7 +3,7 @@
   {
     "id": 1,
     "title": "Sophia Girls Academy: More Than Just an Educational Platform",
-    "author": "Sophia Girls Academy Journalism Department",
+    "author": "Zhanel Bakhmanova",
     "date": "2026-06-28",
     "category": "Summer Programs",
     "image": "../images/articles/sophia-girls.jpeg",
@@ -84,7 +84,7 @@
   {
     "id": 2,
     "title": "The Woman Who Founded One of the World’s Oldest Universities",
-    "author": "Sophia Girls Academy Journalism Department",
+    "author": "Zhanel Bakhmanova",
     "date": "2026-07-07",
     "category": "Stories about Legendary Figures",
     "image": "../images/articles/fatimalafihri.jpg.jpeg",
@@ -156,7 +156,7 @@
   {
     "id": 3,
     "title": "The Woman Who Dared to Say Women Deserved More",
-    "author": "Sophia Girls Academy Journalism Department",
+    "author":"Zhanel Bakhmanova",
     "date": "2026-07-12",
     "category": "Stories about Legendary Figures",
     "image": "../images/articles/Margaret-Fuller.webp",
@@ -224,6 +224,89 @@
         "text": "Photo Source: https://www.bwht.org/margaret-fuller/"
       }
     ]
-  }
+  },
+  {
+  "id": 4,
+  "title": "The Woman Who Founded a Political Party Before Women Could Even Vote",
+  "author": "Zhanel Bakhmanova",
+  "date": "2026-07-19",
+  "category": "Stories about Legendary Figures",
+  "image": "../images/articles/nezihe.jpg",
+  "featured": true,
+  "description": "Discover how Nezihe Muhiddin challenged social expectations by founding a political party for women before they even had the right to vote.",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Imagine starting a political party when women weren’t even allowed to vote. It sounds impossible, but that’s exactly what Nezihe Muhiddin tried to do in July 1923. While many people know about the women who later gained the right to vote in Turkey, far fewer know about the woman who helped start that conversation."
+    },
+    {
+      "type": "heading",
+      "text": "Who Was Nezihe Muhiddin?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nezihe Muhiddin was a Turkish writer, teacher, and women’s rights activist. She believed that women should have the same opportunities as men, not only in education but also in public life and politics."
+    },
+    {
+      "type": "paragraph",
+      "text": "She spent years writing articles and books about women’s rights. However, writing wasn’t enough for her. She wanted to see real change."
+    },
+    {
+      "type": "heading",
+      "text": "A Bold Idea"
+    },
+    {
+      "type": "paragraph",
+      "text": "In July 1923, Nezihe Muhiddin and a group of women founded the People’s Party of Women. Their goal was simple: they wanted women to have a voice in politics and take part in decisions that affected their lives."
+    },
+    {
+      "type": "paragraph",
+      "text": "There was one problem. At that time, women in Turkey didn’t have the right to vote or run for office. Because of this, the party was never officially recognized."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even though the project did not succeed, Nezihe Muhiddin refused to give up."
+    },
+    {
+      "type": "heading",
+      "text": "Continuing the Fight"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead of stopping, she helped establish the Turkish Women’s Union, an organization that continued working for women’s rights. The union encouraged women to become more involved in education, public life, and social issues."
+    },
+    {
+      "type": "paragraph",
+      "text": "Years later, in 1934, Turkish women gained the right to vote and run for parliament. Although many people remember this achievement, fewer remember those who had been fighting for it long before it became reality."
+    },
+    {
+      "type": "heading",
+      "text": "Why Does Her Story Matter?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Change rarely happens overnight. Before new laws are passed, someone has to ask difficult questions and imagine a different future."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nezihe Muhiddin was one of those people. She believed that women deserved more opportunities and that education, leadership, and equal participation in society should not depend on gender."
+    },
+    {
+      "type": "heading",
+      "text": "Looking Back"
+    },
+    {
+      "type": "paragraph",
+      "text": "Today, girls can study, build careers, and become leaders in ways that once seemed impossible. These opportunities exist because people like Nezihe Muhiddin were willing to challenge the expectations of their time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Her name may not appear in every history book, but her work helped open doors for future generations. And sometimes, that’s exactly how real change begins."
+    },
+    {
+      "type": "paragraph",
+      "text": "Photo Source: nezihe.jpg"
+  ]
+}
 ]
 
