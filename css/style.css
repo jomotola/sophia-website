@@ -885,3 +885,87 @@ footer h3 {
 
     }
 }
+/* Recruitment & Webinar Popup */
+
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+
+.popup-box {
+    background: #fff;
+    width: 90%;
+    max-width: 520px;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+    animation: popupAnimation 0.35s ease;
+}
+
+.popup-box h2 {
+    color: #8b3a62;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.popup-box p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    background: transparent;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: #555;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.secondary-btn {
+    background: #d18bb0;
+    color: white;
+}
+
+.secondary-btn:hover {
+    background: #b96d95;
+}
+
+@keyframes popupAnimation {
+    from {
+        opacity: 0;
+        transform: scale(0.85);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@media(max-width: 500px) {
+    .popup-box {
+        padding: 25px 20px;
+    }
+
+    .popup-buttons a {
+        width: 100%;
+    }
+}
