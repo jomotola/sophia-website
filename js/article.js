@@ -107,6 +107,10 @@ if (articleTitle) {
 
       if (article) {
         showArticle(article);
+        if (article) {
+          showArticle(article);
+          displayRelatedArticles(article, data);
+        }
       }
     })
     .catch((error) => console.error(error));
@@ -187,5 +191,74 @@ function formatDate(dateString) {
     year: "numeric",
     month: "long",
     day: "numeric",
+  });
+}
+
+//RELATED ARTICLES
+function displayRelatedArticles(currentArticle, allArticles) {
+  const container = document.querySelector("#related-articles");
+
+  if (!container) return;
+
+  const others = allArticles.filter(
+    (article) => article.id !== currentArticle.id,
+  );
+
+  let related = others.filter(
+    (article) => article.category === currentArticle.category,
+  );
+
+  related.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  related = related.slice(0, 3);
+
+  if (related.length < 3) {
+    const remaining = others
+      .filter(
+        (article) =>
+          article.category !== currentArticle.category &&
+          !related.some((r) => r.id === article.id),
+      )
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    related = related.concat(remaining.slice(0, 3 - related.length));
+  }
+
+  container.innerHTML = "";
+
+  related.forEach((article) => {
+    container.innerHTML += `
+            <article class="article-card">
+
+                <img src="${article.image}" alt="${article.title}">
+
+                <div class="article-card-content">
+
+                    <span class="category">
+                        ${article.category}
+                    </span>
+
+                    <h3>${article.title}</h3>
+
+                    <div class="article-meta">
+                      <span>${article.author}</span>
+                      <span>•</span>
+                      <span>${formatDate(article.date)}</span>
+                    </div>
+
+                    <p>
+                        ${article.description}
+                    </p>
+
+                    <a
+                        href="article.html?id=${article.id}"
+                        class="read-more">
+                        Read Article →
+                    </a>
+
+                </div>
+
+            </article>
+        `;
   });
 }
