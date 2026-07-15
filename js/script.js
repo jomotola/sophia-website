@@ -161,3 +161,42 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
     nav.classList.remove("active");
   });
 });
+
+
+
+// Announcement Popup
+const popup = document.getElementById("announcement-popup");
+const closeBtn = document.getElementById("close-popup");
+
+// Show popup every time the page loads
+window.addEventListener("load", () => {
+    setTimeout(() => {
+        popup.classList.add("show");
+    }, 1000); 
+});
+
+// Close popup
+function closePopup() {
+    popup.classList.remove("show");
+}
+
+// Close button
+if (closeBtn) {
+    closeBtn.addEventListener("click", closePopup);
+}
+
+// Close when clicking outside the popup
+if (popup) {
+    popup.addEventListener("click", (e) => {
+        if (e.target === popup) {
+            closePopup();
+        }
+    });
+}
+
+// Close with Escape key
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+        closePopup();
+    }
+});
