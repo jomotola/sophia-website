@@ -169,11 +169,11 @@ const popup = document.getElementById("announcement-popup");
 const closeBtn = document.getElementById("close-popup");
 
 // Show popup every time the page loads
-//window.addEventListener("load", () => {
+window.addEventListener("load", () => {
     //setTimeout(() => {
         //popup.classList.add("show");
     //}, 1000); 
-//});
+});
 
 // Close popup
 function closePopup() {
