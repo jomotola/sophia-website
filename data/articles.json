@@ -507,7 +507,7 @@
   "author": "Zhanel Bakhmanova",
   "date": "2026-08-09",
   "category": "Stories about Legendary Figures",
-  "image": "../images/articles/womens-march-1956.jpg.jpeg",
+  "image": "southafricawomensday.jpeg",
   "featured": true,
   "description": "Learn about the 20,000 women who marched against apartheid pass laws in South Africa in 1956.",
   "content": [
@@ -641,7 +641,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<ul><li>Photo Source: Add photo source here</li></ul>"
+      "text": "<ul><li>Photo Source: https://www.vectorstock.com/royalty-free-vector/happy-womens-day-in-south-africa-celebration-vector-51533546?utm_source=Pinterest&utm_medium=organic&utm_campaign=Vector+Social+Share&utm_content=happy+womens+day+in+south+africa+celebration</li></ul>"
     }
   ]
 }
