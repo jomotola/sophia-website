@@ -20,7 +20,11 @@ if (articleContainer) {
 function displayArticles(articles) {
   articleContainer.innerHTML = "";
 
-  articles.forEach((article) => {
+  const sortedArticles = [...articles].sort(
+    (a, b) => new Date(b.date) - new Date(a.date),
+  );
+
+  sortedArticles.forEach((article) => {
     articleContainer.innerHTML += `
 
         <article class="article-card" data-category="${article.category}">

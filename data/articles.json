@@ -644,5 +644,393 @@
       "text": "<ul><li>Photo Source: <a href='https://www.vectorstock.com/royalty-free-vector/happy-womens-day-in-south-africa-celebration-vector-51533546' target='blank'>VectorStock</a></li></ul>"
     }
   ]
+},
+{
+  "id": 8,
+  "title": "Bertha Lutz: The Woman Who Refused to Wait",
+  "author": "Zhanel Bakhmanova",
+  "date": "2026-08-14",
+  "category": "Stories about Legendary Figures",
+  "image": "../images/articles/bertha-lutz.jpg.jpeg",
+  "featured": true,
+  "description": "Learn about Bertha Lutz, the Brazilian feminist who fought tirelessly for women's suffrage.",
+  "content": [
+    {
+      "type":"heading",
+      "text": "More Than Just a Scientist"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>When we hear the word <em>feminist</em>, we often imagine activists holding signs, giving speeches, or standing in the middle of a protest. But Bertha Lutz’s story looks a little different.</p>"
+    }, 
+    {
+      "type": "paragraph",
+      "text": "<p>Born on August 2, 1894, in São Paulo, Brazil, Bertha Lutz was a scientist, diplomat, and one of the most important figures in Brazil’s fight for women’s rights. And honestly, what makes her interesting is not just what she achieved, but how many different things she managed to do.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>She studied science, worked as a biologist, entered politics, and spent years fighting for something that today might seem obvious: women having the right to vote.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "A Scientist Who Wanted More"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Bertha studied biology and became a specialist in amphibians. While many women of her time were expected to stay within very traditional roles, she was building a career in science.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>But science wasn’t the only thing she cared about.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>After studying in Europe, Bertha returned to Brazil and became increasingly involved in the women’s rights movement. In 1919, she helped create the Brazilian Federation for Women’s Progress, an organization that pushed for women’s political and social rights.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>At the time, women in Brazil couldn’t simply walk into a voting booth and have their voices counted. So Bertha decided that this needed to change.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "“Why Shouldn’t Women Vote?”"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>This is probably my favorite part of her story.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Sometimes, the biggest changes begin with a question that sounds almost too simple.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Why shouldn’t women vote?</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Why shouldn’t women study?</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Why shouldn’t women have careers?</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Why shouldn’t women have a say in the decisions that affect their lives?</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Bertha kept asking questions like these and then actually did something about the answers.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>She became involved in politics and helped advocate for women’s suffrage for years. Her efforts contributed to Brazil recognizing women’s right to vote in 1932. It wasn’t an overnight victory. It took years of organizing, campaigning, writing, speaking, and refusing to give up</p>"
+    },
+    {
+      "type": "heading",
+      "text": "She Wasn’t Waiting For Permission"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>What I find inspiring about Bertha Lutz is that she didn’t choose just one identity.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>She was a scientist <em>and</em> an activist. A diplomat <em>and</em> a feminist. She could spend one part of her life studying biology and another fighting for political rights. And I think that’s something young women today can relate to.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>We’re constantly told to choose one thing. Pick one career. Pick one passion. Have one clear plan for your future. But Bertha’s life shows that you don’t necessarily have to fit into one box. You can be interested in science and politics. You can care about your career and social change. You can be ambitious and still want to make things better for other people.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Why Remember Bertha Lutz?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Bertha Lutz died in 1976, but the changes she fought for didn’t disappear with her.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Today, women voting in Brazil is completely normal. It’s easy to forget that there was a time when it wasn’t.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>That’s probably the strange thing about progress. Once something becomes normal, we forget how impossible it might have seemed before.</p>"
+    },
+    {
+      "type":"paragraph",
+      "text": "<p>Bertha Lutz lived in a time when women were often told what they <em>couldn’t</em> do. Instead of accepting those limits, she spent her life testing them. And maybe that’s the part of her story worth remembering most.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Credits"
+    }, 
+    {
+      "type": "paragraph",
+      "text": "<ul><li>Photo Source: <a href='https://sites.ungeneva.org/not-a-womans-job/2024/en/permanent-missions/bertha-lutz.html' target='_blank'>UN Geneva</a></li></ul>"
+    }
+  ]
+},
+{
+  "id": 9,
+  "title": "The Day Women Finally Got a Vote",
+  "author": "Zhanel Bakhmanova",
+  "date": "2026-08-27",
+  "category": "Stories about Legendary Figures",
+  "image": "../images/articles/1920_amendment.jpg.jpeg",
+  "featured": true,
+  "description": "Learn about the 19th Amendment and the fight for women's suffrage in the United States.",
+  "content": [
+    {
+      "type": "heading",
+      "text": "It Was Never Just About Voting"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Imagine living in a country where you have to follow its laws, pay taxes, work, raise a family, and deal with decisions made by politicians but you have no right to choose those politicians yourself. Today, that sounds unfair almost immediately. But for American women, this was normal for a very long time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>On August 18, 1920, the 19th Amendment was ratified, officially recognizing that the right to vote could not be denied on the basis of sex. After decades of protests, campaigns, speeches, petitions, and organizing, women had finally reached a moment they had been fighting for.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>But the amendment didn’t appear out of nowhere. Women had been demanding the right to vote since the 19th century. At the 1848 Seneca Falls Convention, activists openly discussed women’s political rights at a time when even suggesting that women should participate in politics was controversial. Generation after generation continued the fight, even though many of them would never live to see the amendment become law.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>That part makes me think about how strange progress can be. We usually learn history through dates: 1848, 1920, 1965. But behind every date are people who spent years working toward something they might never personally experience. Imagine fighting for a change and knowing that you might not be there when it finally happens. You still keep going because you believe someone else should have the opportunity.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "1920 Was A Victory, But It Wasn’t The End"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>There is also something important that often gets left out when we talk about the 19th Amendment. Saying that it gave women the right to vote can make it sound like every woman in America suddenly walked into a polling station in 1920 and voted freely. That wasn’t what happened.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Black women, Indigenous women, Asian American women, and other women of color continued facing laws, discrimination, intimidation, and other barriers that made voting difficult or impossible in many places. The Voting Rights Act of 1965 became another major step toward protecting voting rights.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>So August 18, 1920 was a huge moment, but it wasn’t the finish line. And I actually think that’s an important part of understanding history. We sometimes want one perfect moment where everything suddenly becomes fair, but real change doesn’t work like that. A law can change in one day, while people’s attitudes and systems can take decades to catch up.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Why Does It Still Matter?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>For me, the most interesting thing about the 19th Amendment isn’t simply that women were finally allowed to vote. It’s the fact that something that once seemed impossible eventually became normal.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Most of us don’t wake up thinking about how unusual it is that we can participate in elections. We just see voting as one of those things that exists. But there was a time when an entire half of the population was told that their voice didn’t belong in politics.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>The women who fought for suffrage didn’t know exactly when they would win. They only knew that they wanted something different from what existed around them. And they kept pushing for it anyway.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Maybe that’s what makes August 18, 1920 worth remembering. Not because one amendment solved everything, but because it shows that laws and traditions are not automatically permanent just because they’ve existed for a long time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Sometimes, the things we consider completely normal today exist because someone before us looked at the world and thought, “<strong>This isn’t fair</strong>.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>And then decided not to stop there.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Credits"
+    }, 
+    {
+      "type": "paragraph",
+      "text": "<ul><li>Photo Source: <a href='https://blog.gale.com/share-the-story-behind-the-19th-amendment/' target='_blank'>Gale</a></li></ul>"
+    }
+  ]
+},
+{
+  "id": 10,
+  "title": "When Colombian Women Finally Got to Vote",
+  "author": "Zhanel Bakhmanova",
+  "date": "2026-08-25",
+  "category": "Stories about Legendary Figures",
+  "image": "../images/articles/colombia_womens_suffrage.jpg.jpeg",
+  "featured": true,
+  "description": "Learn about the journey of Colombian women in their fight for the right to vote and the impact of their struggle.",
+  "content": [
+    {
+      "type": "heading",
+      "text": "A Right That Took Years"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>For a long time, Colombian women could live in the same country, follow the same laws, work, study, and care about what was happening in their communities, but they still couldn’t participate in one of the most basic parts of politics: voting. That changed on August 25, 1954, when Colombia’s National Constituent Assembly recognized women’s political rights. It might sound like just another historical date, but at the time, it meant that women were finally being recognized as political citizens, not just as people affected by political decisions.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>What makes this story interesting is that the change didn’t happen overnight. Women had been pushing for greater rights for years, and even after 1954, they still had to wait to actually use their new political right. Their first national vote came in 1957, when Colombian women participated in a referendum for the first time. More than a million women went to the polls, turning what had once been impossible into something real.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Imagine Your First Vote"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>I sometimes wonder what it must have felt like to vote for the first time when your mother, grandmother, and generations of women before you had never been able to do it. Today, voting can feel like a normal part of growing up. We learn about elections, political parties, and governments at school, and eventually voting becomes something adults simply do. But for these women, entering a polling place in 1957 meant stepping into something completely new.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>They weren’t suddenly given opinions that day. They had always had opinions about their country and what should change. The difference was that now those opinions could actually be represented through a vote. And I think that’s an important distinction. Giving someone the right to vote isn’t really giving them a voice, women already had voices. It is giving that voice a place in the political system.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Why We Should Still Remember It"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>The story of Colombian women’s suffrage also reminds us that progress is usually much slower than we imagine. We look back to 1954 and think, <em>Of course women should have been allowed to vote</em>. But at the time, it was a major political and social change. And even after women gained the right, equality didn’t suddenly appear everywhere.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Still, August 25 remains an important date because it marked the moment when Colombia officially recognized that women belonged in its political life. Three years later, women actually went to the polls and made history themselves.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Today, it is easy to take that right for granted. But maybe that’s exactly why we should remember how it began. Before something becomes normal, there is usually a moment when it was new, uncertain, and even controversial.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>For Colombian women, that moment began in 1954 and in 1957, they finally got to make their voices count.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Credits"
+    }, 
+    {
+      "type": "paragraph",
+      "text": "<ul><li>Photo Source: <a href='https://colombiaone.com/wp-content/uploads/2024/08/female-vote-Colombia-Credit-historical-memory-center-1024x712.jpg' target='_blank'>Columbia One</a></li></ul>"
+    }
+  ]
+},
+{
+  "id": 11,
+  "title": "Women’s Equality Day: Is Equality Ever Finished?",
+  "author": "Zhanel Bakhmanova",
+  "date": "2026-08-26",
+  "category": "Stories about Legendary Figures",
+  "image": "../images/articles/3rd_article.jpg.jpeg",
+  "featured": true,
+  "description": "Women’s Equality Day is not just a celebration of the past, but a reminder that the fight for equality is ongoing.",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Why August 26 Matters"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>What if a day celebrating equality was actually created to remind us that the fight for equality isn’t over?</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Every year on August 26, the United States celebrates Women’s Equality Day. The date marks the ratification of the 19th Amendment in 1920, which recognized women’s right to vote. More than fifty years later, in 1973, Congress officially designated August 26 as Women’s Equality Day.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>At first, it might sound like a celebration of something that happened a long time ago. Women can vote, women can study, work, run for office, and build careers. So why do we still need a day dedicated to equality?</p>"
+    }, 
+    {
+      "type": "paragraph",
+      "text": "<p>I think that’s what makes this day interesting.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "One Amendment Isn't Enough"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>When we learn about the 19th Amendment, it’s easy to imagine that everything changed overnight. Women won the right to vote, everyone celebrated, and the problem was solved.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>But history is rarely that simple.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>The amendment was a huge achievement, but it didn’t mean that every woman suddenly experienced equality. Many women of color continued to face discrimination and barriers that prevented them from fully exercising their voting rights. The struggle for equal rights continued long after 1920, and in many ways, it is still continuing today.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>That’s why I don’t think Women’s Equality Day should be seen only as a celebration of the past. It is also a reminder to look at the present.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Equality Isn't A Finish Line"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>One thing I find interesting about equality is that we often talk about it like it’s a destination. As if one day we will finally arrive at “perfect equality” and never have to think about it again.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>But society doesn’t really work that way.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>The issues women face change with time. The things that were considered impossible for women 100 years ago might seem completely normal today, while completely new challenges appear for the next generation.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>And maybe that’s why remembering history matters. If we forget how hard previous generations had to fight for rights that now feel obvious, we can easily start taking them for granted.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>I can vote today without thinking about the women who spent decades demanding that right. I can study, choose a career, have ambitions, and imagine a future for myself without wondering whether society will allow me to do those things simply because I’m a girl.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>But someone had to fight for that possibility first.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "So, What Are We Celebrating?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>For me, Women’s Equality Day isn’t about saying that everything is perfect now. It is about recognizing how far women have come while understanding that progress doesn’t mean the story is finished.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>August 26 connects the past with the present. It reminds us of the women who demanded a voice in 1920, but it also asks what we are going to do with the opportunities they helped create.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Because equality isn’t something one generation can achieve and then hand over as a finished project.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>Every generation gets to decide what it wants to change.</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<p>And maybe that’s the real meaning of Women’s Equality Day: not just looking back at how far women have come, but asking ourselves how much further we can go.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Credits"
+    }, 
+    {
+      "type": "paragraph",
+      "text": "<ul><li>Photo Source: <a href='https://upload.wikimedia.org/wikipedia/commons/c/cd/Suffragists_Parade_Down_Fifth_Avenue%2C_1917.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original' target='_blank'>Wikipedia</a></li></ul>"
+    }
+  ]
 }
 ]
